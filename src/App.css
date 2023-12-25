@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Signika:wght@300;400&display=swap');
+
+body{
+  font-family: Signika;
+  background-color: #011728;
+}
+
+nav {
+  z-index: 10001 !important;
+}
+.Depan {
+  z-index: 10;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #13A680 0%, rgba(19, 166, 128, 0.50) 60%, rgba(19, 166, 128, 0.00) 100%);
+}
+.gradientFooter {
+  background: linear-gradient(0deg, #13A680 0%, rgba(19, 166, 128, 0.50) 60%, rgba(19, 166, 128, 0.00) 100%);
+}
+.gradientCard {
+  background: linear-gradient(0deg, rgb(30 41 59) 0%, #1a252d 30%, #011728 100%);
+}
+.gradientCardDino {
+  background: linear-gradient(100deg, rgb(30 41 59) 10%, #1a252d 50%, #011728 100%);
+}
+
+.btnPrimary {
+  @apply text-white bg-primary py-2 px-4 transition-all duration-300 rounded hover:bg-gray-500
+}
+.btnSecondary {
+  @apply text-white bg-secondary py-2 px-4 transition-all duration-300 rounded hover:bg-gray-500
+}
+.btnCard {
+  @apply text-white text-xs bg-secondary py-1 px-3 transition-all duration-300 rounded hover:bg-gray-500
+}
+
+/* Add this to your CSS file */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.modal-content {
+  z-index: 1;
+}
+
+.visible {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
