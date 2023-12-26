@@ -9,7 +9,7 @@ const Card = ({ image, name, button, onBacaClick }) => {
           <img
             src={image}
             alt="img"
-            className="w-full object-contain object-center h-[130px]"
+            className="w-full object-contain object-center h-[150px]"
           />
         </figure>
         <h1 className="mb-2 text-center mobile:mb-2 text-xl font-logo text-secondary line-clamp-2 hover:line-clamp-none">
