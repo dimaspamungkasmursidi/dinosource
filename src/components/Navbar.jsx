@@ -64,7 +64,7 @@ const Navbar = () => {
     {navItems.map(({ link, path }) => (
               <Link
                 key={link}
-                href={path}
+                to={path}
                 className="block text-white text-xl hover:text-tertiary"
               >
                 {link}
