@@ -6,7 +6,7 @@ body{
 }
 
 nav {
-  z-index: 10001 !important;
+  z-index: 3;
 }
 .Depan {
   z-index: 10;
@@ -58,7 +58,7 @@ nav {
 }
 
 .modal-content {
-  z-index: 1;
+  z-index: 10001 !important;
 }
 
 .visible {

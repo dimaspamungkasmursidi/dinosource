@@ -12,7 +12,7 @@ const Data = () => {
       id: 1,
       name: "T-rex",
       category: "Dinosaurus karnivora",
-      image: "/src/assets/tirex.png",
+      image: "/images/tirex.png",
       button: "baca",
       description:
         "Tyrannosaurus adalah genus dinosaurus theropoda besar. Spesies Tyrannosaurus rex ( rex berarti raja dalam bahasa Latin ), sering disebut T-rex atau bahasa sehari-hari Tirex, adalah salah satu theropoda yang paling terwakili. Ia hidup di wilayah yang sekarang disebut Amerika Utara bagian barat, di wilayah yang dulunya merupakan benua kepulauan yang dikenal sebagai Laramidia. Fosil ditemukan dalam berbagai formasi batuan yang berasal dari zaman Maastricht pada periode Kapur Atas, 68 hingga 66 juta tahun yang lalu. Ia merupakan anggota tyrannosaurid terakhir yang diketahui dan salah satu dinosaurus non- unggas terakhir yang ada sebelum peristiwa kepunahan Kapur Paleogen.",
@@ -21,7 +21,7 @@ const Data = () => {
       id: 2,
       name: "Spinosaurus",
       category: "Dinosaurus karnivora",
-      image: "/src/assets/spinosaurus.png",
+      image: "/images/spinosaurus.png",
       button: "baca",
       description:
         "Spinosaurus (Dari Bahasa Yunani, Spino = Tulang belakang atau duri, dan Sauros = kadal) merupakan dinosaurus terbesar dari anggota Spinosaurida. Spinosaurus juga merupakan satu dari tiga Theropoda terbesar sepanjang masa melebihi Tyrannosaurus (T-Rex), yang hidup di daerah yang kini bisa dikenali sebagai Afrika bagian utara. Spinosaurus merupakan Theropoda raksasa yang dapat tumbuh hingga 18 m dengan tinggi sekitar 5 m (sampai layarnya) dan berat mencapai 7, 6 ton. Panjang tengkorak Spinosaurus 165 cm dengan seratus gigi-gigi runcing yang lurus sepanjang kira-kira 19 cm. Ciri khas Spinosaurus adalah tulang belakangnya yang menjulang keatas sekitar 2 m dan merupakan layar yang dilapisi kulit.",
@@ -30,7 +30,7 @@ const Data = () => {
       id: 3,
       name: "Stegosaurus",
       category: "Dinosaurus herbivora",
-      image: "/src/assets/stegosaurus.png",
+      image: "/images/stegosaurus.png",
       button: "baca",
       description:
         "Stegosaurus artinya kadal beratap, karena sisik besar di punggungnya (bahasa Yunani stego = piring/atap + sauros = kadal) adalah sebuah genus dinosaurus herbivora besar dari Awal Jurassic di Amerika Utara. Spesies ini adalah salah satu jenis dinosaurus yang paling mudah diidentifikasi, karena kedua baris sisik yang saling silang di punggungnya dan 2 pasang duri panjang di ekornya (disebut thagomizer).",
@@ -41,7 +41,7 @@ const Data = () => {
       id: 4,
       name: "Triceratops",
       category: "Dinosaurus herbivora",
-      image: "/src/assets/triceratops.png",
+      image: "/images/triceratops.png",
       button: "baca",
       description:
         "Triceratops artinya wajah bertanduk tiga, adalah genus dari dinosaurus ceratopsia chasmosaurinae yang hidup pada sub-kala Maastrichtium akhir pada kala Kapur Akhir, sekitar 68 hingga 66 juta tahun lalu pada wilayah yang sekarang merupakan Amerika Utara. Genus ini merupakan salahsatu yang terakhir diketahui dari dinosaurus non-burung, punah pada Peristiwa kepunahan Kapur Paleogen.",
@@ -52,7 +52,7 @@ const Data = () => {
       id: 5,
       name: "Velociraptor",
       category: "Dinosaurus karnivora",
-      image: "/src/assets/velociraptor.png",
+      image: "/images/velociraptor.png",
       button: "baca",
       description:
         "Velociraptor adalah genus dari dinosaurus Dromaeosaurid yang hidup di Asia pada kala Kapur Akhir, sekitar 75 hingga 71 juta tahun lalu. mongoliensis, yang dinamai dan dideskripsikan pada 1924. Fosil dari spesies tersebut ditemukan di Formasi Djadokhta, Mongolia. Spesies lainnya, V. osmolskae, dinamai pada 2008 bedasarkan material tengkorak yang ditemukan di Cina.",
@@ -63,7 +63,7 @@ const Data = () => {
       id: 6,
       name: "Brachiosaurus",
       category: "Dinosaurus herbivora",
-      image: "/src/assets/brachiosaurus.png",
+      image: "/images/brachiosaurus.png",
       button: "baca",
       description:
         "Branchiosaurus adalah genus dinosaurus sauropoda yang hidup di Amerika Utara selama Jura Akhir, sekitar 154 - 150 juta tahun yang lalu.[2] Dinosaurus ini pertama kali dijelaskan oleh paleontolog Amerika bernama Elmer S. Riggs pada tahun 1903 dari fosil-fosil yang ditemukan di lembah Sungai Colorado di Colorado barat, Amerika Serikat.",
@@ -74,7 +74,7 @@ const Data = () => {
       id: 7,
       name: "Diplodocus",
       category: "Dinosaurus herbivora",
-      image: "/src/assets/diplodocus.png",
+      image: "/images/diplodocus.png",
       button: "baca",
       description:
         "Diplodocus adalah genus dinosaurus sauropod diplodocid yang fosilnya pertama kali ditemukan pada tahun 1877 oleh S. W. Williston. Dinosaurus ini hidup di Amerika Utara barat pada akhir periode Jurassic.Diplodocus dinamai berdasarkan bahasa Yunani dan Latin yang berarti Bertiang dua karena ruas serta tulang kakinya yang kokoh.",
@@ -85,7 +85,7 @@ const Data = () => {
       id: 8,
       name: "Pachycephalosaurus",
       category: "Dinosaurus herbivora",
-      image: "/src/assets/pachycephalosaurus.png",
+      image: "/images/pachycephalosaurus.png",
       button: "baca",
       description:
         "Pachycephalosaurus (nama ilmiahnya berarti kadal bertengkorak tebal) adalah herbivora Ornithischia dari famili Pachycephalosauridae yang hidup pada zaman Kapur Akhir di Amerika Utara. Genus ini diwakili oleh spesies P. wyomingensis.",
@@ -96,7 +96,7 @@ const Data = () => {
       id: 9,
       name: "Ankylosaurus",
       category: "Dinosaurus herbivora",
-      image: "/src/assets/ankylosaurus.png",
+      image: "/images/ankylosaurus.png",
       button: "baca",
       description:
         "Ankylosaurus adalah salah satu jenis dinosaurus yang hidup pada periode kapur akhir sekitar 68 juta hingga 65 juta tahun yang lalu di Amerika Utara.",
@@ -107,7 +107,7 @@ const Data = () => {
       id: 10,
       name: "Parasaurolophus",
       category: "Dinosaurus herbivora",
-      image: "/src/assets/parasaurolophus.png",
+      image: "/images/parasaurolophus.png",
       button: "baca",
       description:
         "Parasaurolophus adalah dinosaurus dari famili Hadrosauridae yang hidup pada masa periode kapur akhir sekitar 76,5-73 juta tahun yang lalu. Ia memiliki jambul berbentuk tabung di belakang kepala nya, mungkin untuk berkomunikasi dengan sesamanya, dan mungkin untuk memamerkan pada betina ketika musim kawin. Parasaurolophus berarti kadal yang hampir berjambul fosilnya ditemukan di Amerika utara, New meksiko, dan Kanada.",
@@ -118,7 +118,7 @@ const Data = () => {
       id: 11,
       name: "Brontosaurus",
       category: "Dinosaurus herbivora",
-      image: "/src/assets/brontosaurus.png",
+      image: "/images/brontosaurus.png",
       button: "baca",
       description:
         "Brontosaurus artinya Kadal Petir, adalah genus dari dinosaurus sauropoda herbivora yang hidup di Amerika Serikat saat iniselama periode Jurassic Akhir . Ia dijelaskan oleh ahli paleontologi Amerika Otniel Charles Marsh pada tahun 1879.",
@@ -129,7 +129,7 @@ const Data = () => {
       id: 12,
       name: "Elasmosaurus",
       category: "Dinosaurus karnivora",
-      image: "/src/assets/elasmosaurus.png",
+      image: "/images/elasmosaurus.png",
       button: "baca",
       description:
         "Elasmosaurus Yang berarti Kadal Pelat Tipis, adalah genus dari Plesiosauria dengan leher yang sangat panjang yang hidup di periode Kapur, sekitar 80.5 juta tahun yang lalu. Pernah muncul di film animasi jepang yaitu Doraemon dengan nama pii..",
@@ -140,7 +140,7 @@ const Data = () => {
       id: 13,
       name: "Pterosaurus",
       category: "Dinosaurus karnivora",
-      image: "/src/assets/pterosaurus.png",
+      image: "/images/pterosaurus.png",
       button: "baca",
       description:
         "Pterosaurus, yang artinya kadal bersayap, adalah suatu jenis reptil terbang dari cabang atau ordo Pterosauria yang telah punah. Mereka hidup dari akhir Trias sampai akhir masa Kapur (228 sampai 66 juta tahun yang lalu). Sayap mereka dibentuk oleh selaput kulit, otot, dan jaringan lain yang membentang dari pergelangan kaki yang secara cepat ataupun lambat akan tetap memanjang keempat jarinya.",
@@ -151,7 +151,7 @@ const Data = () => {
       id: 14,
       name: "Sinoceratops",
       category: "Dinosaurus herbivora",
-      image: "/src/assets/sinoceratops.png",
+      image: "/images/sinoceratops.png",
       button: "baca",
       description:
         "Sinoceratops adalah genus dinosaurus ceratopsian yang telah punah dan hidup sekitar 73 juta tahun yang lalu pada bagian akhir Zaman Kapur di tempat yang sekarang menjadi provinsi Shandong di Tiongkok . Ia dinamakan pada tahun 2010 oleh Xu Xing dkk. untuk tiga tengkorak dari Zhucheng , Cina. Nama spesies jenisnya Sinoceratops zhuchengensis berarti wajah bertanduk Cina dari Zhucheng, sesuai dengan lokasi penemuannya.",
@@ -162,7 +162,7 @@ const Data = () => {
       id: 15,
       name: "Tarbosaurus",
       category: "Dinosaurus karnivora",
-      image: "/src/assets/tarbosaurus.png",
+      image: "/images/tarbosaurus.png",
       button: "baca",
       description:
         "Tarbosaurus adalah sebuah genus dinosaurus teropoda yang tergolong ke dalam famili Tyrannosauridae. Mereka hidup di Asia sekitar 70 juta tahun yang lalu pada akhir zaman Kapur. Fosil-fosil dinosaurus ini telah ditemukan di Mongolia, dan beberapa fosil yang tidak lengkap juga telah ditemukan di Tiongkok.",
@@ -173,7 +173,7 @@ const Data = () => {
       id: 16,
       name: "Mosasaurus",
       category: "Dinosaurus karnivora",
-      image: "/src/assets/mosasaurus.png",
+      image: "/images/mosasaurus.png",
       button: "baca",
       description:
         "Mosasaurus artinya kadal Sungai Meuse, adalah genus tipe (yang mendefinisikan contoh) dari Mosasauroidea. Hewan ini hidup pada 82 - 65 juta tahun yang lalu selama sub-kalaKampanium dan Maastrichtium dari Kapur Akhir. Fosil Mosasaurus paling awal yang pernah ditemukan adalah tengkorak-tengkorak di sebuah galian kapur dekat kota Maastricht di Belanda pada abad ke-18 akhir, yang awalnya dikira sebagai tulang-tulang buaya atau paus.",
@@ -184,7 +184,7 @@ const Data = () => {
       id: 17,
       name: "Dimorphodon",
       category: "Dinosaurus karnivora",
-      image: "/src/assets/dimorphodon.png",
+      image: "/images/dimorphodon.png",
       button: "baca",
       description:
         "Dimorphodon adalah genus pterosaurus berukuran sedangdari Eropa pada awal Periode Jurassic (sekitar 201-191 juta tahun yang lalu).",
@@ -195,7 +195,7 @@ const Data = () => {
       id: 18,
       name: "Pyroraptor",
       category: "Dinosaurus karnivora",
-      image: "/src/assets/pyroraptor.png",
+      image: "/images/pyroraptor.png",
       button: "baca",
       description:
         "Pyroraptor berarti pencuri api, adalah genus dinosaurus paravian yang telah punah, mungkin dromaeosaurid atau unenlagiid , dari pulau Ibero-Armorican Kapur Akhir, yang sekarang menjadi Prancis selatan dan Spanyol utara. Ia hidup pada tahap akhir Campanian dan awal Maastrichtian, sekitar 83,5 hingga 70,6 juta tahun yang lalu. Hal ini diketahui dari satu spesimen parsial yang ditemukan di Provence pada tahun 1992, setelah kebakaran hutan. Hewan itu diberi nama Pyroraptor olympius oleh Allain dan Taquet pada tahun 2000.",
@@ -206,7 +206,7 @@ const Data = () => {
       id: 19,
       name: "Microraptor",
       category: "Dinosaurus karnivora",
-      image: "/src/assets/microraptor.png",
+      image: "/images/microraptor.png",
       button: "baca",
       description:
         "Microraptor adalah sebuah genus dari dinosaurus dromaeosaurid bersayap empat. Fosil yang terawetkan dengan baik dari genus ini ditemukan dari batuan Kapur Awal (kala Aptium) sekitar 125 hingga 120 juta tahun lalu pada Formasi Jiufotang, Liaoning, Tiongkok. ",
@@ -217,7 +217,7 @@ const Data = () => {
       id: 20,
       name: "Allosaurus",
       category: "Dinosaurus karnivora",
-      image: "/src/assets/allosaurus.png",
+      image: "/images/allosaurus.png",
       button: "baca",
       description:
         "Allosaurus  merupakan dinosaurus karnivora terbesar dalam Periode Jurasik. Allosaurus merupakan salah satu jenis dinosaurus yang paling baik dikenal sejauh ini selain karnivora terdahulu lainnya seperti Megalosaurus dan Tyrannosaurus rex.",
@@ -265,13 +265,13 @@ const Data = () => {
             value={searchInput}
             onChange={handleSearch}
           />
-          <button id="search" onClick={handleSearch} className="btnSecondary">
+          <button id="search" onClick={handleSearch} className="btnSecondary shadow-lg shadow-white">
             Search
           </button>
         </div>
       </div>
 
-      <div className="mt-10 md:px-10 px-4 grid grid-cols-4 mobile:grid-cols-12 xl:grid-cols-10 gap-4">
+      <div className="mt-10 md:px-10 px-4 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
         {filteredDinos.map((dino) => (
           <Card
             key={dino.id}

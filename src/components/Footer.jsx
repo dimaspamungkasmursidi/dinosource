@@ -1,7 +1,7 @@
 const Footer = () => {
     return ( 
         <>
-<footer className="relative gradientFooter pt-8 pb-6 mt-14">
+<footer className="relative gradientFooter pt-8 pb-6 mt-14 -z-10">
   <div className="container mx-auto px-4 mt-6">
     <div className="flex flex-wrap text-left lg:text-left">
       <div className="w-full lg:w-6/12 px-4">

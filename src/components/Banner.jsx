@@ -1,4 +1,4 @@
-import Tirex from "../assets/tirex.png";
+import Tirex from "../../public/images/tirex.png";
 import { Link } from "react-router-dom";
 
 const Banner = () => {

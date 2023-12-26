@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Brontosaurus from "../assets/diplodocus.png";
+import Diplodocus from "../../public/images/diplodocus.png";
 
 const HomeAbout = () => {
   return (
@@ -16,7 +16,7 @@ const HomeAbout = () => {
       <div className="rounded-xl md:p-9 px-4 shadow">
         <div className="flex flex-col px-2 md:flex-row-reverse justify-between items-center">
           <div>
-            <img src={Brontosaurus} alt="Tirex" className="lg:h-[400px] h-[250px]" />
+            <img src={Diplodocus} alt="Diplodocus" className="lg:h-[400px] h-[250px]" />
           </div>
           <div className="md:w-3/5">
           <p className=" text-justify text-slate-200 font-body text-sm md:text-lg gradientCard p-6 pt-8 rounded-br-[60px]">
@@ -29,7 +29,7 @@ const HomeAbout = () => {
           </div>
         </div>
       </div>
-      <div className="my-4 md:px-10 md:my-8 px-4 flex justify-center items-center">
+      <div className="mt-4 md:px-10 md:my-8 px-4 flex justify-center items-center">
         <Link to="/About">
         <button className="btnSecondary">About</button>
         </Link>

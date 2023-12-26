@@ -5,25 +5,25 @@ const HomeDino = () => {
   const card = [
     {
       id: 1,
-      image: "/src/assets/tirex.png",
+      image: "/images/tirex.png",
       name: "T-rex",
       button: "Selengkapnya",
     },
     {
       id: 2,
-      image: "/src/assets/spinosaurus.png",
+      image: "/images/spinosaurus.png",
       name: "Spinosaurus",
       button: "Selengkapnya",
     },
     {
       id: 3,
-      image: "/src/assets/triceratops.png",
+      image: "/images/triceratops.png",
       name: "Triceratops",
       button: "Selengkapnya",
     },
     {
       id: 4,
-      image: "/src/assets/stegosaurus.png",
+      image: "/images/stegosaurus.png",
       name: "Stegosaurus",
       button: "Selengkapnya",
     },
@@ -36,7 +36,7 @@ const HomeDino = () => {
         </h2>
         <p className="text-xs text-slate-300">Kunjungi halaman Dinopedia untuk melihat<br />lebih banyak lagi Dinosaurus.</p>
       </div>
-      <div className="md:px-10 px-4 grid grid-cols-4 sm:flex mobile:grid-cols-12 xl:grid-cols-10 gap-4">
+      <div className="md:px-10 px-4 grid grid-cols-2 md:grid-cols-4 lg:flex gap-4">
         {card.map((card) => (
           <Card
             key={card.id}
