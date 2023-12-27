@@ -20,21 +20,21 @@ const HomeDino = () => {
       image: "/images/spinosaurus.png",
       name: "Spinosaurus",
       button: "Selengkapnya",
-      description: "Kunjungi halaman Dinopedia untuk mengetahui lebih lanjut tentang T-rex, dan Dinosaurus lainnya.",
+      description: "Kunjungi halaman Dinopedia untuk mengetahui lebih lanjut tentang Spinosaurus, dan Dinosaurus lainnya.",
     },
     {
       id: 3,
       image: "/images/triceratops.png",
       name: "Triceratops",
       button: "Selengkapnya",
-      description: "Kunjungi halaman Dinopedia untuk mengetahui lebih lanjut tentang T-rex, dan Dinosaurus lainnya.",
+      description: "Kunjungi halaman Dinopedia untuk mengetahui lebih lanjut tentang Triceratops, dan Dinosaurus lainnya.",
     },
     {
       id: 4,
       image: "/images/stegosaurus.png",
       name: "Stegosaurus",
       button: "Selengkapnya",
-      description: "Kunjungi halaman Dinopedia untuk mengetahui lebih lanjut tentang T-rex, dan Dinosaurus lainnya.",
+      description: "Kunjungi halaman Dinopedia untuk mengetahui lebih lanjut tentang Stegosaurus, dan Dinosaurus lainnya.",
     },
   ];
   
