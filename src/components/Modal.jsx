@@ -72,7 +72,7 @@ const Modal = ({ dino, onClose }) => {
             >
               <div className="flex flex-col-reverse gap-2 items-center mb-6">
                 <img src={image} alt={name} className="h-[200px] mr-6" />
-                <h3 className="font-logo w-10">{category}</h3>
+                <h3 className="font-logo w-10 mt-6">{category}</h3>
               </div>
               <h3 className="text-lg font-logo -mt-4">{name}</h3>
               <p className="py-4 text-justify indent-5 cursor-pointer">
@@ -80,7 +80,7 @@ const Modal = ({ dino, onClose }) => {
               </p>
               <p className="-mt-2 text-justify indent-5">{secdescription}</p>
               <button
-                className="btnPrimary cursor-pointer mt-1"
+                className="btnPrimary cursor-pointer mt-2 mb-6"
                 onClick={handleClose}
               >
                 Close
