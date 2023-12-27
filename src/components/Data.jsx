@@ -224,6 +224,16 @@ const Data = () => {
       secdescription:
         "Allosaurus adalah Theropoda terbesar di Periode Jurasik. Panjang tubuh maksimal Allosaurus dewasa bisa mencapai sekitar 10 m dengan tinggi sekitar 3,5 m dan berat mencapai 6 ton. Terdapat beberapa jenis Allosaurus yang berbeda, seperti Allosaurus fragilis, Allosaurus amplexus (terbesar), Allosaurus maximus, Allosaurus ferox, dan Allosaurus atrox. Panjang tengkorak mereka bervariasi, tetapi yang terbesar sekitar 1, 45 m panjangnya, dengan puluhan gigi tajam bergerigi sepanjang 12 cm untuk mencabik-cabik mangsa."
     },
+    // {
+    //   id: 21,
+    //   name: "Hylotomus",
+    //   category: "Dinosaurus karnivora",
+    //   image: "/images/hylotomus.png",
+    //   button: "baca",
+    //   description:
+    //     "Hylotomus, atau dinosaurus hylotomus, adalah genus dari dinosaurus dromaeosaurid yang terdiri dari dua spesies, yaitu Hylotomus australis dan Hylotomus melanotis. ",
+    // },
+    
   ];
 
   const handleSearch = (e) => {

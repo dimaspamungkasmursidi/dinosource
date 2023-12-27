@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Card from "./Card";
 import Modal from "./Modal";
 
@@ -45,6 +45,23 @@ const HomeDino = () => {
     const handleCloseModal = () => {
       setSelectedDino(null);
     };
+
+        // Efek untuk mengatur overflow pada body
+        useEffect(() => {
+          const body = document.body;
+          if (selectedDino) {
+            // Disable scrolling when the modal is open
+            body.style.overflow = "hidden";
+          } else {
+            // Enable scrolling when the modal is closed
+            body.style.overflow = "auto";
+          }
+      
+          // Cleanup function untuk mengembalikan overflow ke nilai semula saat komponen unmount
+          return () => {
+            body.style.overflow = "auto";
+          };
+        }, [selectedDino]);
 
   return (
     <>

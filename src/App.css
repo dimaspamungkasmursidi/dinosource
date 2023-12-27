@@ -63,3 +63,9 @@ nav {
   z-index: 10001 !important;
   visibility: visible;
 }
+
+.scrollable {
+  /* Tambahkan scrolling pada konten modal yang panjang */
+  max-height: 40rem; /* Sesuaikan dengan kebutuhan Anda */
+  overflow-y: auto;
+}

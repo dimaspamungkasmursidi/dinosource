@@ -41,7 +41,7 @@ const Modal = ({ dino, onClose }) => {
     <div className={`modal ${modalVisible ? "visible" : "hidden"}`} onClick={handleClose}>
       <div className="overlay" onClick={handleClose}></div>
       <motion.div
-        className="modal-content max-w-3xl bg-secondary text-white p-6 rounded-md"
+        className="scrollable modal-content modal-overlay max-w-3xl bg-secondary text-white p-6 rounded-md"
         onClick={handleCloseClick}
         variants={dropIn}
         initial="hidden"
