@@ -1,6 +1,7 @@
 import Tirex from "../../public/images/tirex.png";
 import { Link } from "react-router-dom";
 
+
 const Banner = () => {
   return (
     <div className="text-white md:px-10 p-4 max-w-screen-2xl mx-auto mt-14">

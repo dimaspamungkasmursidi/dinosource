@@ -19,7 +19,7 @@ const HomeAbout = () => {
             <img src={Diplodocus} alt="Diplodocus" className="lg:h-[400px] h-[250px]" />
           </div>
           <div className="md:w-3/5">
-          <p className=" text-justify text-slate-200 font-body text-sm md:text-lg gradientCard p-6 pt-8 rounded-br-[60px]">
+          <p className=" text-justify text-slate-200 font-body text-sm md:text-lg bg-gradient-to-t from-slate-800 p-8 pt-8 rounded-br-[60px]">
           <span className="text-secondary text-lg font-logo">Dinosource</span> adalah sebuah platform yang menyediakan informasi tentang
           dinosaurus. Kami menyediakan berbagai informasi terkait dinosaurus
           yang pernah ada di dunia.

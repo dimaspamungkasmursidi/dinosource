@@ -6,7 +6,7 @@ const Dinopedia = () => {
     return ( 
         <>
         <Navbar />
-        <div className="flex flex-col mt-8">
+        <div className="flex flex-col mt-20">
         <div className="flex flex-col items-center justify-center mt-10 mb-4 md:px-10 px-4 max-w-screen-2xl mx-auto">
             <h2 className="font-logo text-2xl md:text-4xl text-white">
                 <span className="text-secondary">Dino</span>Pedia Information

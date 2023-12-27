@@ -1,5 +1,6 @@
 // Modal.js
 import React, { useState } from "react";
+import {motion} from "framer-motion"
 
 const Modal = ({ dino, onClose }) => {
   const [modalVisible, setModalVisible] = useState(true);
@@ -9,7 +10,7 @@ const Modal = ({ dino, onClose }) => {
     onClose();
   };
 
-  const handleTextClick = () => {
+  const handleCloseClick = () => {
     // Add any additional logic you want when clicking the text
     // For now, let's just close the modal
     handleClose();
@@ -17,12 +18,37 @@ const Modal = ({ dino, onClose }) => {
 
   const { name, category, image, description, secdescription } = dino;
 
+  const dropIn = {
+    hidden: {
+      y: "-100vh",
+      opacity: 0,
+    },
+    visible: {
+      y: "0",
+      opacity: 1,
+      transition: {
+        duration: 0.1,
+        type: "spring",
+        damping: 25,
+        stiffness: 500,
+      },
+    },
+    exit: {
+      y: "100vh",
+      opacity: 0,
+    },
+  };
+
   return (
     <div className={`modal ${modalVisible ? "visible" : "hidden"}`}>
       <div className="overlay" onClick={handleClose}></div>
-      <div
+      <motion.div
         className="modal-content max-w-3xl bg-secondary text-white p-6 rounded-md"
-        onClick={handleTextClick}
+        onClick={handleCloseClick}
+        variants={dropIn}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
       >
         <div className="flex items-center mb-6">
           <img src={image} alt={name} className="h-[200px] mr-6" />
@@ -39,7 +65,7 @@ const Modal = ({ dino, onClose }) => {
         >
           Close
         </button>
-      </div>
+      </motion.div>
     </div>
   );
 };

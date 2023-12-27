@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={`gradient md:px-12 p-3 pb-6 max-w-screen-2xl mx-auto text-white ${isMenuOpen ? "fixed top-0 right-0 left-0" : "md:static"}`}>
+      <nav className={`gradient md:px-12 p-3 pb-6 -mb-20 max-w-screen-2xl mx-auto text-white ${isMenuOpen ? "fixed top-0 right-0 left-0" : "md:static"}`}>
         <div className="text-lg container mx-auto flex justify-between items-center font-medium">
           <div className="flex space-x-16 items-center">
             <Link to="/Home" className="text-blue-500 font-bold">
