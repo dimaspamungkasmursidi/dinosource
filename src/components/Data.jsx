@@ -83,7 +83,7 @@ const Data = () => {
     },
     {
       id: 8,
-      name: "Pachycephalosaurus",
+      name: "Pachycephalo",
       category: "Dinosaurus herbivora",
       image: "/images/pachycephalosaurus.png",
       button: "baca",

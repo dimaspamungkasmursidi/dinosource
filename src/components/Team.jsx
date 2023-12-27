@@ -7,7 +7,7 @@ export const Team = () => {
               Our Team
             </p>
           </div>
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto">
+          <h2 className="max-w-lg mb-6 font-sans text-2xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
               <svg
                 viewBox="0 0 52 24"
@@ -45,7 +45,7 @@ export const Team = () => {
             />
             <div className="flex flex-col justify-center">
               <p className="text-lg font-bold">Dimas Pamungkas Mursidi</p>
-              <p className="text-sm">Product Manager</p>
+              <p className="text-sm">Murid Gugel</p>
             </div>
           </div>
           <div className="flex gradient p-4 rounded-lg rounded-tl-[40px]">

@@ -16,7 +16,7 @@ nav {
   background: linear-gradient(180deg, #13A680 0%, rgba(19, 166, 128, 0.50) 60%, rgba(19, 166, 128, 0.00) 100%);
 }
 .gradientFooter {
-  background: linear-gradient(0deg, #13A680 0%, rgba(19, 166, 128, 0.50) 60%, rgba(19, 166, 128, 0.00) 100%);
+  background: linear-gradient(80deg, #13A680 0%, rgba(19, 166, 128, 0.50) 60%, rgba(19, 166, 128, 0.00) 100%);
 }
 .gradientCard {
   background: linear-gradient(0deg, rgb(30 41 59) 0%, #1a252d 30%, #011728 100%);

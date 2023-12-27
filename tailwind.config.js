@@ -17,6 +17,7 @@ export default {
         'tertiary': '#272926',
     },
       screens: {
+        xxxs: '290px',
         xxs: '320px',
         xs: '390px',
         xsm: '480px',
