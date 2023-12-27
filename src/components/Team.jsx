@@ -60,8 +60,7 @@ export const Team = () => {
             </div>
           </div>
           <p className="text-base md:text-lg mt-8 text-center -mb-20">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+            follow ig aing cuy tuh di bawah, klik aja logo ig nya..
           </p>
         </div>
       </div>
