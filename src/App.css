@@ -72,6 +72,6 @@ nav {
 
 .scrollable {
   /* Tambahkan scrolling pada konten modal yang panjang */
-  max-height: 40rem; /* Sesuaikan dengan kebutuhan Anda */
+  max-height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
   overflow-y: auto;
 }
