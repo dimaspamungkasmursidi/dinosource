@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Logo from "../../public/images/dino.png";
 
 const Footer = () => {
     return ( 
@@ -13,7 +14,7 @@ const Footer = () => {
               title="Company"
               className="inline-flex items-center"
             >
-              <img src="/public/images/dino.png" alt="Logo" className="w-16"  />
+              <img src={Logo} alt="Logo" className="w-16"  />
               <span className="text-2xl font-logo tracking-wide text-gray-100 ">
                 Dinosource
               </span>
