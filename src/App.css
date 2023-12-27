@@ -8,6 +8,11 @@ body{
 nav {
   z-index: 3;
 }
+
+.index {
+  z-index:  1;
+}
+
 .Depan {
   z-index: 10;
 }
@@ -37,6 +42,7 @@ nav {
 
 /* Add this to your CSS file */
 .modal {
+  z-index: 9;
   position: fixed;
   top: 0;
   left: 0;

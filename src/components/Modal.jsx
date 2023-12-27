@@ -40,6 +40,7 @@ const Modal = ({ dino, onClose }) => {
   return (
     <div className={`modal ${modalVisible ? "visible" : "hidden"}`} onClick={handleClose}>
       <div className="overlay" onClick={handleClose}></div>
+      <div className="background"></div>
       <motion.div
         className="scrollable modal-content modal-overlay max-w-3xl bg-secondary text-white p-6 rounded-md"
         onClick={handleCloseClick}
@@ -48,7 +49,7 @@ const Modal = ({ dino, onClose }) => {
         animate="visible"
         exit="exit"
       >
-        <div className="flex items-center mb-6">
+        <div className="flex flex-col-reverse gap-2 items-center mb-6">
           <img src={image} alt={name} className="h-[200px] mr-6" />
           <h3 className="font-logo w-10">{category}</h3>
         </div>
