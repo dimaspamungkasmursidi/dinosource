@@ -11,8 +11,6 @@ const Modal = ({ dino, onClose }) => {
   };
 
   const handleCloseClick = () => {
-    // Add any additional logic you want when clicking the text
-    // For now, let's just close the modal
     handleClose();
   };
 
@@ -40,7 +38,7 @@ const Modal = ({ dino, onClose }) => {
   };
 
   return (
-    <div className={`modal ${modalVisible ? "visible" : "hidden"}`}>
+    <div className={`modal ${modalVisible ? "visible" : "hidden"}`} onClick={handleClose}>
       <div className="overlay" onClick={handleClose}></div>
       <motion.div
         className="modal-content max-w-3xl bg-secondary text-white p-6 rounded-md"

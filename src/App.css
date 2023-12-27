@@ -45,6 +45,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  visibility: hidden;
+  overflow: hidden;
 }
 
 .overlay {
@@ -59,12 +61,5 @@ nav {
 
 .modal-content {
   z-index: 10001 !important;
-}
-
-.visible {
-  display: flex;
-}
-
-.hidden {
-  display: none;
+  visibility: visible;
 }
