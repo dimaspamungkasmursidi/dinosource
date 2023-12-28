@@ -33,9 +33,9 @@ const Navbar = () => {
               <img
                 src={Logo}
                 alt="Logo"
-                className="w-10 inline-block items-center"
+                className="w-14 inline-block items-center"
               />
-              <span className="font-logo tracking-wider text-primary">RAWR</span>
+              <span className="font-logo text-2xl tracking-wider text-primary">RAWR</span>
             </Link>
             <ul className={`md:flex space-x-12 ${isMenuOpen ? "hidden" : "mobile:hidden xs:hidden xxs:hidden xxxs:hidden xsm:hidden"}`}>
               {navItems.map(({ link, path }) => (

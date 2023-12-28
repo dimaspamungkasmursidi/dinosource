@@ -27,14 +27,14 @@ const HomeDino = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/barbaridactylus.png",
       name: "Spinosaurus",
       button: "Selengkapnya",
-      description: "Kunjungi halaman Dinopedia untuk mengetahui lebih lanjut tentang Spinosaurus, dan Dinosaurus lainnya.",
+      description: "Kunjungi halaman Dinopedia untuk mengetahui lebih lanjut tentang barbaridactylus, dan Dinosaurus lainnya.",
     },
     {
       id: 4,
       image: "/images/elasmosaurus.png",
       name: "Elasmosaurus",
       button: "Selengkapnya",
-      description: "Kunjungi halaman Dinopedia untuk mengetahui lebih lanjut tentang Stegosaurus, dan Dinosaurus lainnya.",
+      description: "Kunjungi halaman Dinopedia untuk mengetahui lebih lanjut tentang elasmosaurus, dan Dinosaurus lainnya.",
     },
   ];
   
