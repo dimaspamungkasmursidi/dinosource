@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div className="text-white md:px-10 p-4 max-w-screen-2xl mx-auto mt-14">
-      <div className="gradientCard p-4 rounded-xl rounded-br-[80px] md:p-9 px-4 py-9 shadow">
+      <div className="gradientCard p-4 rounded-xl rounded-br-[80px] md:p-9 px-4 py-9 shadow mt-4">
         <div className="flex flex-col py-4 px-2 md:flex-row-reverse justify-between items-center gap-10">
           <div>
             <img src={Tirex} alt="Tirex" className="lg:h-[400px]" />

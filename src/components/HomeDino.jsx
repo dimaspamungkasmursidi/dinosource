@@ -25,7 +25,7 @@ const HomeDino = () => {
     {
       id: 3,
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/barbaridactylus.png",
-      name: "Spinosaurus",
+      name: "Barbaridactylus",
       button: "Selengkapnya",
       description: "Kunjungi halaman Dinopedia untuk mengetahui lebih lanjut tentang barbaridactylus, dan Dinosaurus lainnya.",
     },

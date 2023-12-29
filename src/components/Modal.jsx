@@ -79,12 +79,15 @@ const Modal = ({ dino, onClose }) => {
                 {description}
               </p>
               <p className="-mt-2 text-justify indent-5">{secdescription}</p>
+              <div className="flex items-center justify-center w-full pt-4 mt-4 mb-2 gap-4 border-t border-deep-purple-accent-200">
               <button
-                className="btnPrimary cursor-pointer mt-2 mb-6"
+                className="btnPrimary cursor-pointer"
                 onClick={handleClose}
               >
-                Close
+                Tutup
               </button>
+              <p className="grdientCard">Atau Klik dimana saja untuk menutup.</p>
+              </div>
             </motion.div>
           </motion.div>
         </>

@@ -13,6 +13,10 @@ nav {
   z-index:  1;
 }
 
+.minus-index {
+  z-index: -20;
+}
+
 .Depan {
   z-index: 10;
 }

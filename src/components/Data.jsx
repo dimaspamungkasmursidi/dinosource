@@ -708,9 +708,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/gigantoraptor.png",
       button: "baca",
       description:
-        "",
+        "Gigantoraptor yang berarti Pencuri Raksasa, adalah genus dinosaurus oviraptorosaurus besaryang hidup di Asia selama periode Kapur Akhir. Hal ini diketahui dari Formasi Iren Dabasu di Mongolia Dalam, dimana sisa-sisa pertama ditemukan pada tahun 2005.",
       secdescription:
-        "",
+        "Gigantoraptor adalah oviraptorosaurus terbesar yang diketahui memiliki bahan kerangka. Kira-kira 3 kali lebih panjang dan 35 kali lebih berat daripada oviraptorosaurus terbesar yang ditemukan sebelumnya Citipati, holotipe Gigantoraptor diperkirakan memiliki panjang 8 m (26 kaki) dengan tinggi 3,5 m (11 kaki) di pinggul, dan berat yang sangat besar. sebesar 1,4 t (1,5 ton pendek). Penelitian lain memperkirakan massa tubuhnya kira-kira atau lebih dari 2 metrik ton (2,2 short ton).",
     },
     {
       id: 65,
@@ -719,9 +719,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/utahraptor.png",
       button: "baca",
       description:
-        "",
+        "Utahraptor yang berarti Pencuri Dari Utah, adalah genus dinosaurus dromaeosaurid besar yang hidup di Amerika Utara selama periode Kapur awal. Utahraptor adalah karnivora bertubuh tegap, hidup di darat, dan berkaki dua . Dalam genus ini terdapat satu spesies yaitu, Utahraptor ostrommaysi, yang merupakan anggota famili Dromaeosauridae terbesar yang diketahui.",
       secdescription:
-        "",
+        "Seperti dromaeosaurid lainnya, Utahraptor memiliki cakar besar yang melengkung di jari kaki kedua. Pedal ungual kedua yang diawetkan sepanjang 22 cm (8.7 inci) dan diperkirakan mencapai 24 cm (9.4 inci) diperbaiki.",
     },
     {
       id: 66,
@@ -730,9 +730,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/deinocheirus.png",
       button: "baca",
       description:
-        "",
+        "Deinocheirus adalah genus ornithomimosaurus besaryang hidup pada Zaman Kapur Akhir sekitar 70 juta tahun yang lalu. Pada tahun 1965, sepasang lengan besar, ikat pinggang bahu, dan beberapa tulang dinosaurus baru lainnya pertama kali ditemukan di Formasi Nemegt di Mongolia",
       secdescription:
-        "",
+        "Deinocheirus adalah ornithomimosaurus yang tidak biasa, yang terbesar dari clade dengan panjang 11 m (36 kaki), dan berat 6,5 t (7,2 short ton). Meskipun hewannya besar, ia memiliki banyak tulang berlubang sehingga dapat menghemat berat. Lengannya termasuk yang terbesar dari semua dinosaurus berkaki dua dengan panjang 2,4 m (7,9 kaki), dengan cakar besar dan tumpul di tangan tiga jarinya. Kakinya relatif pendek, dan memiliki cakar yang tumpul.",
     },
     {
       id: 67,
@@ -741,9 +741,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/archelon.png",
       button: "baca",
       description:
-        "",
+        "Archelon (Dari bahasa Yunani yang berarti pemimpin para penyu), adalah penyu laut prasejarah yang telah lama punah. Archelon merupakan penyu terbesar yang pernah didokumentasikan. Spesimen archelon pertama kali ditemukan di formasi geologis Pierre Shale, Dakota Selatan, Amerika Serikat oleh Dr. G.R. Wieland pada tahun 1895 dan berhasil dideskripsikan pada tahun berikutnya.",
       secdescription:
-        "",
+        "Holotipe berukuran 352 cm (11,5 kaki) dari kepala hingga ekor, dengan kepala berukuran 60 cm (2 kaki), leher 72 cm (2,4 kaki), tulang dada 135 cm (4,4 kaki), sakrum 15 cm (0,5 kaki) kaki), dan ekor 70 cm (2,3 kaki). Spesimen terbesar, Brigitta, berukuran sekitar 4,6 m (15 kaki) dari kepala hingga ekor dan 4,0 m (13 kaki) dari sirip ke sirip, dan, semasa hidup, beratnya sekitar 2,2-3,2 ton (2,4-3,5 ton pendek). Tengkorak Archelon berukuran hingga 100 cm (3,3 kaki).",
     },
     {
       id: 68,
@@ -752,9 +752,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/tylosaurus.png",
       button: "baca",
       description:
-        "",
+        "Tylosaurus adalah hewan dari superfamili Mosasauroidea, sebuah kelompok, reptil laut pemangsa yang berkerabat dekat dengan biawak dan ular, dari periode Kapur Akhir.",
       secdescription:
-        "",
+        "Tylosaurus adalah salah satu mosasaurus terbesar yang diketahui. Spesimen terbesar yang diketahui, kerangka T. proriger dari Museum Sejarah Alam Universitas Kansas yang dijuluki Bunker (KUVP 5033), diperkirakan berukuran panjang antara 12-15,8 meter (39-52 kaki).",
     },
     {
       id: 69,
@@ -774,9 +774,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/dunkleosteus.png",
       button: "baca",
       description:
-        "",
+        "Dunkleosteus yang berarti Tulang Satu Dunkle untuk menghormati penemunya, Dr. David Dunkle dari Amerika Serikat, merupakan salah satu placodermi terbesar sepanjang masa dan satu dari ikan karnivora terkuat di dunia. Dunkleosteus berasal dari Amerika Serikat pada zaman devonian dan tinggal di perairan sedang dan dalam yang kaya akan mangsa semacam amfibi, crustacea, moluska, dan bahkan ikan lain.",
       secdescription:
-        "",
+        "Dunkleonteus diketahui memiliki panjang antara 4,1 hingga 10 m (13 hingga 33 kaki) dan berat sekitar 1-4 t (1,1-4,4 ton pendek). Namun, panjang 5 meter (16 kaki) atau lebih tidak didukung dengan baik oleh bukti dan analisis paling ekstensif mengenai ukuran Dunkleosteus mendukung perkiraan panjang yang lebih kecil.",
     },
     {
       id: 71,
@@ -785,9 +785,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/ichthyosaurus.png",
       button: "baca",
       description:
-        "",
+        "Ichthyosaurus yang berarti Kadal Ikan, adalah ordo reptil laut berukuran raksasa yang menyerupai ikan dan lumba-lumba. Mereka hidup selama era Mesozoikum; berdasarkan rekaman fosil, kelompok ini pertama kali muncul sekitar 245 juta tahun yang lalu, kemudian punah sekitar 90 juta tahun yang lalu (25 juta tahun sebelum kepunahan dinosaurus).",
       secdescription:
-        "",
+        "Rata-rata ichthyosauri tumbuh sepanjang 2-4 m (6.6-13 kaki) (beberapa tumbuh lebih besar atau lebih kecil), dengan kepala berbentuk seperti ikan pesut dan moncong panjang yang dipenuhi gigi. bentuk tubuh ichthyosauria tercipta untuk kecepatan di air, dan beberapa ichthyosauria diketahui sebagai penyelam dalam, seperti paus modern (Motani, 2000).",
     },
     {
       id: 72,
@@ -796,9 +796,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/kronosaurus.png",
       button: "baca",
       description:
-        "",
+        "Kronosaurus adalah sejenis plesiosauria raksasa berleher pendek (Pliosauroidea) yang hidup pada awal Periode Kapur di lautan Australia dan Kolombia. Reptil laut ini dinamakan Kronosaurus (yang berarti Kadal Kronos, Kronos adalah nama pimpinan para Titan dalam mitologi Yunani) karena ukurannya yang tergolong besar, sekitar 9-11 meter panjangnya. Kronosaurus hidup pada periode Kapur Awal, Aptian hingga Albian Akhir.",
       secdescription:
-        "",
+        "Perkiraan saat ini menyebutkan Kronosaurus memiliki panjang sekitar 9 hingga 10,9 meter (30 hingga 36 kaki). Pada tahun 2009, K. queenslandicus diperkirakan memiliki berat sekitar 10,6 hingga 12,1 metrik ton (11,7 hingga 13,3 short ton). Panjang tengkorak Kronosaurus diperkirakan 2,21-2,85 meter (7,3-9,4 kaki).",
     },
     {
       id: 73,
@@ -807,9 +807,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/liopleurodon.png",
       button: "baca",
       description:
-        "",
+        "Liopleurodon yang berarti Gigi Bersisi Halus, adalah genus reptil laut karnivora yang masuk dalam kelompok Pliosauridae, sebuah klad plesiosauria berleher pendek. Liopleurodon hidup pada kala Callovian di Periode Jura Pertengahan (sekitar 160 - 155 juta tahun lalu). Ia merupakan predator puncak di lautan Eropa selama Periode Jura.",
       secdescription:
-        "",
+        "Liopleurodon ferox pertama kali menarik perhatian publik pada tahun 1999 ketika ditampilkan dalam sebuah episode serial televisi BBC Walking with Dinosaurs, yang menggambarkannya sebagai predator raksasa dengan panjang 25 m (82 kaki) dan berat 150 ton.",
     },
     {
       id: 74,
@@ -818,9 +818,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/shonisaurus.png",
       button: "baca",
       description:
-        "",
+        "Shonisaurus adalah genus ichthyosaurus yang sangat besar. Setidaknya 37 spesimen fosil reptil laut yang tidak lengkap telah ditemukan di Formasi Luning Nevada, AS. Formasi ini berasal dari zaman Carnian akhir pada periode Trias akhir, sekitar 237-227 juta tahun yang lalu.",
       secdescription:
-        "",
+        "Shonisaurus hidup pada tahap Carnian pada periode Trias akhir. Dengan tengkorak besar dengan panjang sekitar 2,75 m (9,0 kaki), S. popularis dan berukuran panjang sekitar 13,5-15 meter (44-49 kaki) dan massa tubuh 21,6-29,7 metrik ton (23,8-32,7 ton pendek).",
     },
     {
       id: 75,
@@ -829,9 +829,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/nothosaurus.png",
       button: "baca",
       description:
-        "",
+        "Nothosaurus adalah genus reptil sauropterygian yang telah punah dari periode Trias, sekitar 240-210 juta tahun yang lalu. dengan fosil yang didistribusikan dari Afrika Utara dan Eropa ke Cina. Ia adalah anggota ordo nothosaur yang paling terkenal.",
       secdescription:
-        "",
+        "Nothosaurus adalah hewan semi samudera yang mungkin memiliki gaya hidup mirip dengan anjing laut masa kini . Tingginya sekitar 4 meter (13 kaki), dengan jari kaki berselaput panjang dan mungkin memiliki sirip di ekornya. Namun, beberapa spesies seperti N. zhangi dan N. giganteus berukuran lebih besar, hingga 5-7 meter (16-23 kaki). Saat berenang, Nothosaurus akan menggunakan ekor, tungkai, dan kaki berselaputnya untuk mendorong dan mengarahkannya melewati air.",
     },
     {
       id: 76,
@@ -840,7 +840,7 @@ const Data = () => {
       image: "/images/elasmosaurus.png",
       button: "baca",
       description:
-        "Elasmosaurus Yang berarti Kadal Pelat Tipis, adalah genus dari Plesiosauria dengan leher yang sangat panjang yang hidup di periode Kapur, sekitar 80.5 juta tahun yang lalu. Pernah muncul di film animasi jepang yaitu Doraemon dengan nama pii..",
+        "Elasmosaurus Yang berarti Kadal Pelat Tipis, adalah genus dari Plesiosauria dengan leher yang sangat panjang yang hidup di periode Kapur, sekitar 80.5 juta tahun yang lalu. Pernah muncul di film animasi jepang yaitu Doraemon dengan nama Pisuke..",
       secdescription:
         "Elasmosaurus panjangnya sekitar 14 m dan beratnya lebih dari 2.000 kg (2,2 ton ), menjadikannya salah satu plesiosaurus terbesar. Tengkoraknya relatif datar, dengan jumlah gigi yang panjang dan menonjol keluar. Leher tulang setelah tengkorak, panjang dan rendah, dan memiliki puncak lateral yang membujur. Seperti kebanyakan elasmosaurids. korset dada berbentuk panjang, dan tidak dimiliki dalam spesimen remaja."
     },
@@ -851,9 +851,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/plesiosaurus.png",
       button: "baca",
       description:
-        "",
+        "Plesiosaurus adalah genus reptil sauropterygian laut besar yang telah punah dan hidup pada zaman Jurassic Awal. Hal ini diketahui dari kerangka yang hampir lengkap dari Lias Inggris. Hal ini dapat dibedakan dari kepalanya yang kecil, lehernya yang panjang dan ramping, badannya yang lebar seperti penyu, ekor yang pendek, dan dua pasang dayung yang besar dan memanjang.",
       secdescription:
-        "",
+        "Plesiosaurus adalah plesiosaurus berukuran sedang yang panjangnya mencapai 2,87-3,5 m (9,4-11,5 kaki). Ada sekitar 40 vertebra serviks (vertebra leher), dengan spesimen berbeda mempertahankan 38 hingga 42 vertebra serviks.",
     },
     {
       id: 78,
@@ -862,9 +862,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/attenborosaurus.png",
       button: "baca",
       description:
-        "",
+        "AttenborosAttenborosaurus adalah genus pliosaurid yang telah punah yang hidup di Dorset, Inggris selama periode Jurassic Awal. Jenis spesiesnya adalahA. conybeari, ditemukan pada tahun 1880 dan dinamai pada tahun 1881 sebagai spesies Plesiosaurus sebelum diberikan genusnya sendiri pada tahun 1993.",
       secdescription:
-        "",
+        "Dilihat dari holotipenya, yang merupakan sisa-sisa sebagian dari satu spesimen, panjang hewan itu sekitar 4,3 m (14 kaki). Sama seperti sepupu plesiosaurusnya, ia adalah hewan pemakan daging. Dari bekas kulit yang ditemukan pada tulangnya, yang kemudian dihancurkan, diduga makhluk tersebut memiliki kulit berselaput, tanpa sisik yang sangat besar, kemungkinan untuk mengurangi ketahanan terhadap air.",
     },
     {
       id: 79,
@@ -873,9 +873,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/styxosaurus.png",
       button: "baca",
       description:
-        "",
+        "Styxosaurus adalah genus plesiosaurusdari keluarga Elasmosauridae, Spesimen tipe ditemukan di Hell Creek di Logan County, Kansas, yang merupakan sumber nama genus yang diciptakan oleh Samuel Paul Welles, yang mendeskripsikan genus tersebut pada tahun 1943.",
       secdescription:
-        "",
+        "Styxosaurus adalah elasmosaurus besar, dengan leher panjang berukuran total sekitar 5,25 meter (17,2 kaki). Panjangnya mencapai 10,5 meter (34 kaki) dan massa tubuhnya 2,3 metrik ton (2,5 ton pendek).",
     },
     {
       id: 80,
@@ -884,9 +884,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/alamosaurus.png",
       button: "baca",
       description:
-        "",
+        "Alamosaurus yang berarti kadal Ojo Alamo, adalah genus dinosaurus sauropoda opisthocoelicaudiine titanosaurian yang mengandung satu spesies yang diketahui, Alamosaurus sanjuanensis, dari zaman Maastrichtian pada Kapur Akhir periode di tempat yang sekarang menjadi bagian barat daya Amerika Utara.",
       secdescription:
-        "",
+        "Alamosaurus adalah herbivora berkaki empat raksasa dengan leher panjang, ekor panjang, dan anggota badan yang relatif panjang. Tubuhnya setidaknya sebagian ditutupi oleh pelindung tulang. Pada tahun 2012, Thomas Holtz memberikan panjang total 30 meter (98 kaki) atau lebih dan perkiraan berat 72,5-80 ton (80-88 short ton) atau lebih.",
     },
     {
       id: 81,
@@ -895,9 +895,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/apatosaurus.png",
       button: "baca",
       description:
-        "",
+        "Apatosaurus yang berarti Kadal Yang Menipu, adalah genus dinosaurus sauropoda herbivora yang hidup di Amerika Utara selama periode Jurassic Akhir.",
       secdescription:
-        "",
+        "Apatosaurus adalah hewan berkaki empat yang besar, berleher panjang, dan memiliki ekor yang panjang seperti cambuk. Tungkai depannya sedikit lebih pendek dari pada tungkai belakangnya. Sebagian besar perkiraan ukuran didasarkan pada spesimen CM 3018, jenis spesimen A. louisae , panjangnya mencapai 21-23 m (69-75 kaki) dan 16,4-22,4 t (panjang 16,1-22,0 ton; 18,1-24,7 ton pendek) di massa tubuh.",
     },
     {
       id: 82,
@@ -917,9 +917,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/camarasaurus.png",
       button: "baca",
       description:
-        "",
+        "Camarasaurus adalah genus dinosaurusherbivora berkaki empat dan merupakan fosil sauropoda Amerika Utara yang paling umum. Sisa-sisa fosilnya telah ditemukan di Formasi Morrison, yang berasal dari zaman Jurassic Akhir ( tahapan Kimmeridgian hingga Tithonian ), antara 155 dan 145 juta tahun yang lalu.",
       secdescription:
-        "",
+        "Camarasaurus adalah sauropoda berukuran sedang dibandingkan dengan spesies kontemporer dalam formasi yang sama, tetapi pada zaman Tithonian mencapai ukuran besar dengan C. supremus. Ukuran maksimum spesies yang paling umum, C. lentus , panjangnya sekitar 15 m (49 kaki). Spesies terbesar, C. supremus , mencapai panjang maksimum 18 meter (59 kaki) - 23 m (75 kaki) dan, perkiraan berat maksimum 47  metrik ton (51,8  ton ).",
     },
     {
       id: 84,
@@ -939,9 +939,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/dreadnoughtus.png",
       button: "baca",
       description:
-        "",
+        "Dreadnoughtus adalah genus dinosaurus sauropoda titanosaurian yang mengandung satu spesies, Dreadnoughtus schrani. D. schrani diketahui dari dua kerangka parsial yang ditemukan di batuan Kapur Atas ( Campanian hingga Maastrichtian kira-kira 76-70 Ma) Formasi Cerro Fortaleza di Provinsi Santa Cruz, Argentina.",
       secdescription:
-        "",
+        "Perkiraan berdasarkan pengukuran bagian kerangka yang diketahui menunjukkan bahwa satu-satunya individu Dreadnoughtus schrani yang diketahui memiliki panjang sekitar 26 meter (85 kaki) dan tingginya sekitar 2 lantai. Dengan tinggi 1,74 m, tulang belikatnya lebih panjang dari tulang belikat titanosaurus lainnya yang diketahui. Iliumnya, tulang bagian atas panggul, juga lebih besar dari tulang lainnya, berukuran panjang 1,31 m.",
     },
     {
       id: 86,
@@ -950,9 +950,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/mamenchisaurus.png",
       button: "baca",
       description:
-        "",
+        "Mamenchisaurus adalah genus dinosaurus sauropoda yang dikenal karena lehernya yang sangat panjang [2] yang panjangnya hampir setengah dari total panjang tubuhnya. Banyak spesies telah dimasukkan ke dalam genus; namun, banyak di antaranya yang mungkin dipertanyakan. Fosil telah ditemukan di Cekungan Sichuan dan Provinsi Yunnan di Tiongkok.",
       secdescription:
-        "",
+        "Sebagian besar spesies adalah sauropoda berukuran sedang hingga besar, dengan panjang sekitar 15 hingga 26 meter (49 hingga 85 kaki) dan mungkin hingga 35 meter (115 kaki) berdasarkan dua tulang belakang yang belum terdeskripsikan.",
     },
     {
       id: 87,
@@ -972,9 +972,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/nigersaurus.png",
       button: "baca",
       description:
-        "",
+        "Nigersaurus adalah genus dinosaurus sauropoda rebbachisaurid yang hidup pada periode Kapur tengah, sekitar 115 hingga 105 juta tahun yang lalu. Ditemukan di Formasi Elrhaz di daerah yang disebut Gadoufaoua, di Niger. Fosil dinosaurus ini pertama kali dideskripsikan pada tahun 1976, namun baru diberi nama Nigersaurus taqueti pada tahun 1999",
       secdescription:
-        "",
+        "Seperti semua sauropoda, Nigersaurus adalah hewan berkaki empat dengan kepala kecil, kaki belakang tebal, dan ekor menonjol. Di antara clade tersebut, Nigersaurus cukup kecil, dengan panjang tubuh hanya 9 m (30 kaki) dan tulang paha hanya mencapai 1 m (3 kaki 3 in) beratnya mungkin sekitar 1,9-4 t (2,1-4,4 short ton), sebanding dengan gajah modern.",
     },
     {
       id: 89,
@@ -983,9 +983,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/amargasaurus.png",
       button: "baca",
       description:
-        "",
+        "Amargasaurus yang berarti La Amarga kadal, adalah genus dinosaurus sauropoda dari zaman Kapur Awal (129,4-122,46 juta tahun yang lalu ) di wilayah yang sekarang disebut Argentina.",
       secdescription:
-        "",
+        "Amargasaurus berukuran kecil untuk ukuran sauropoda, berukuran panjang 9 hingga 13 meter (30 hingga 43 kaki) dan berat sekitar 2,6-4 metrik ton (2,9-4,4 ton pendek). 304 Ia mengikuti bentuk tubuh sauropoda yang khas, dengan ekor dan leher panjang, kepala kecil, dan belalai berbentuk tong yang ditopang oleh empat kaki seperti kolom. Leher Amargasaurus lebih pendek daripada kebanyakan sauropoda lainnya, suatu ciri umum dalam Dicraeosauridae.",
     },
     {
       id: 90,
@@ -1005,9 +1005,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/pentaceratops.png",
       button: "baca",
       description:
-        "",
+        "pentaceratops yang berarti Wajah Bertanduk Lima, adalah genus dinosaurus ceratopsida herbivora dari Zaman Kapur akhirdi wilayah yang sekarang menjadi Amerika Utara. Fosil hewan ini pertama kali ditemukan pada tahun 1921, tetapi genusnya dinamai pada tahun 1923 ketika spesies jenisnya, Pentaceratops sternbergii, dideskripsikan. Pentaceratops hidup sekitar 76-73 juta tahun yang lalu.",
       secdescription:
-        "",
+        "Pentaceratops adalah ceratopsida besar ; Dodson menganggarkan panjang badannya 6 meter (20 kaki). Panjang tengkorak AMNH 1624 adalah 2,3 meter (7,5 kaki) sedangkan PMU R.200 memiliki panjang 2,16 meter (7,1 kaki). Pada tahun 2016 Paul memperkirakan panjangnya 5,5 meter (18 kaki) dan beratnya 2,5 metrik ton (2,75 ton pendek).",
     },
     {
       id: 92,
@@ -1016,9 +1016,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/torosaurus.png",
       button: "baca",
       description:
-        "",
+        "Torosaurus yang berarti Kadal Berlubang, adalah genus dinosaurus ceratopsian chasmosaurine herbivorayang hidup pada zaman Maastricht akhir pada periode Kapur Akhir, antara 68 dan 66 juta tahun yang lalu, meskipun demikian Ada kemungkinan bahwa kisaran spesiesnya bisa meluas hingga 69 juta tahun yang lalu.",
       secdescription:
-        "",
+        "Individu yang disebut Torosaurus semuanya berukuran besar, sebanding dengan spesimen Triceratops terbesar. Karena embel-embelnya yang memanjang, panjang tengkoraknya sangat besar. Hatcher memperkirakan tengkorak YPM 1830 berukuran 2,2 m (7,2 kaki) dan tengkorak YPM 1831 berukuran 2,35 m (7,7 kaki).",
     },
     {
       id: 93,
@@ -1038,9 +1038,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/chasmosaurus.png",
       button: "baca",
       description:
-        "",
+        "Chasmosaurus adalah genus dinosaurus ceratopsid dari Zaman Kapur Akhirdi Amerika Utara. Chasmosaurus berukuran sedikit lebih kecil hingga ukuran 'rata-rata', terutama bila dibandingkan dengan ceratopsia yang lebih besar (seperti Triceratops, yang berukuran sebesar gajah semak Afrika ).",
       secdescription:
-        "",
+        "Chasmosaurus adalah ceratopsid berukuran sedang. Pada tahun 2010 GS Paul memperkirakan panjang C. belli mencapai 4,8 meter, dan beratnya dua ton spesies Formasi Taman Dinosaurus bagian bawah memiliki panjang 4,3 meter dan berat 1,5 ton.",
     },
     {
       id: 95,
@@ -1049,9 +1049,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/styracosaurus.png",
       button: "baca",
       description:
-        "",
+        "Styracosaurus yang berarti Kadal Berduri, adalah genus dinosaurus ceratopsian herbivora dari Zaman Kapur ( tahap Campanian ), sekitar 75,5 hingga 74,5  juta tahun yang lalu. Ia memiliki empat hingga enam duri parietal panjang yang memanjang dari embel-embel lehernya, sebuah tanduk jugal yang lebih kecil di masing-masing pipinya, dan sebuah tanduk yang menonjol dari hidungnya.",
       secdescription:
-        "",
+        "Individu dari genus Styracosaurus memiliki panjang sekitar 5-5,5 meter (16-18 kaki) saat dewasa dan beratnya sekitar 1,8-2,7 metrik ton (2,0-3,0 ton pendek). Tengkoraknya sangat besar, dengan lubang hidung besar, tanduk hidung lurus tinggi, dan embel-embel skuamosa parietal (jumbai leher ) yang dimahkotai dengan setidaknya empat paku besar.",
     },
     {
       id: 96,
@@ -1060,9 +1060,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/nasutoceratops.png",
       button: "baca",
       description:
-        "",
+        "Nasutoceratops adalah genus dinosaurus ceratopsian yang telah punah. Ia adalah centrosaurine basal yang hidup pada Zaman Kapur Akhir (akhir Campanian, sekitar 76.0-75.5 juta tahun yang lalu ). Fosil telah ditemukan di Utah selatan, Amerika Serikat.",
       secdescription:
-        "",
+        "Tengkorak holotipe memiliki panjang sekitar 1,5 meter (4,9 kaki). Panjang tubuhnya diperkirakan 4,5 meter (14,8 kaki), beratnya 1,5 ton (1,7 ton pendek). Nasutoceratops memiliki beberapa ciri turunan unik atau autapomorphies. Bagian moncong di sekitar lubang hidung sangat berkembang, mewakili sekitar tiga perempat panjang tengkorak di depan rongga mata.",
     },
     {
       id: 97,
@@ -1071,9 +1071,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/pachyrhinosaurus.png",
       button: "baca",
       description:
-        "",
+        "Pachyrhinosaurus yang berarti Kadal Berhidung Tebal, merupakan genus dinosaurus ceratopsid centrosaurinae dari Zaman Kapur akhir dari Amerika Utara. Contoh pertama ditemukan oleh Charles M. Sternberg di Alberta, Kanada, pada tahun 1946, dan dinamai pada tahun 1950.",
       secdescription:
-        "",
+        "Spesies Pachyrhinosaurus terbesar berukuran sepanjang 5 meter (16 kaki). Ceratopsid ini memiliki berat empat ton. Mereka adalah herbivora dan memiliki gigi pipi yang kuat untuk mengunyah tumbuhan berserat.",
     },
     {
       id: 98,
@@ -1082,9 +1082,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/sauropelta.png",
       button: "baca",
       description:
-        "",
+        "Sauropelta yang berarti Perisai Kadal, adalah genus dinosaurus nodosaurid yang ada pada Periode Kapur Awal di Amerika Utara. Satu spesies ( S.edwardsorum ) telah diberi nama meskipun spesies lain mungkin sudah ada. Secara anatomi, Sauropelta adalah salah satu nodosaurid yang paling banyak dipahami, dengan sisa-sisa fosil yang ditemukan di negara bagian Wyoming, Montana, dan mungkin Utah, AS.",
       secdescription:
-        "",
+        "Sauropelta adalah herbivora berkaki empat bertubuh kekar dengan panjang tubuh kira-kira 5-6 meter (16-20 kaki) dan massa tubuh 1,5-2 t (1,7-2,2 ton pendek).",
     },
     {
       id: 99,
@@ -1093,9 +1093,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/polacanthus.png",
       button: "baca",
       description:
-        "",
+        "Polacanthus yang berarti Banyak Duri, adalah dinosaurus ankylosaurian pemakan tumbuhan lapis baja, berduri, dan awal dariperiode Kapur awal Inggris",
       secdescription:
-        "",
+        "Polacanthus adalah ankylosaurus berukuran sedang. Pada tahun 2010, Gregory S. Paul memperkirakan panjangnya 5 meter (16 kaki), beratnya 2 ton (2,2 ton pendek). Thomas Holtz memberikan perkiraan lebih rendah yaitu 4 meter (13 kaki) dan 227-454 kg (500-1.000 lbs) pada tahun 2012. Kaki belakangnya relatif panjang untuk ankylosaurus, dengan panjang tulang paha kanan 555 milimeter dengan holotipe.",
     },
     {
       id: 100,
@@ -1104,9 +1104,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/nodosaurus.png",
       button: "baca",
       description:
-        "",
+        "Nodosaurus (berarti Kadal Bertanduk) adalah genus dinosaurus ankylosaurian nodosaurid herbivora dari Kapur Akhir, yang fosilnya ditemukan secara eksklusif di Formasi Frontier di Wyoming.",
       secdescription:
-        "",
+        "Pada tahun 2010 Paul memperkirakan panjangnya 6 meter (20 kaki) dan beratnya 3,5 ton (3,85 short ton). Ia memiliki empat kaki pendek, kaki berjari lima, leher pendek, dan ekor panjang, kaku, dan tidak berbentuk tongkat. Kepalanya sempit, dengan moncong runcing, rahang kuat, dan gigi kecil. Ia mungkin memakan tanaman yang lunak, karena ia tidak mampu mengunyah tanaman yang keras dan berserat; atau sebagai alternatif, ia mungkin mengolah yang terakhir dengan gastrolit dan peralatan ususnya yang sangat besar.",
     },
     {
       id: 101,
@@ -1115,9 +1115,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/euoplocephalus.png",
       button: "baca",
       description:
-        "",
+        "Euoplocephalus adalah genus dinosaurus ankylosaurid herbivora yang sangat besar, yang hidup pada Zaman Kapur Akhir di Kanada. Ia hanya mempunyai satu spesies bernama, Euoplocephalus tutus.",
       secdescription:
-        "",
+        "Di antara ankylosaurid, ukuran Euoplocephalus hanya dilampaui oleh Ankylosaurus, dan mungkin Tarchia dan Cedarpelta . Euoplocephalus panjangnya sekitar 5,3 meter (17 kaki) dan beratnya sekitar 2 metrik ton (2,2 ton pendek). Seperti ankylosaurid lainnya, ia memiliki batang tubuh yang sangat lebar dan datar, tinggi sekitar empat kaki, dengan empat kaki pendek.",
     },
     {
       id: 102,
@@ -1126,9 +1126,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/crichtonsaurus.png",
       button: "baca",
       description:
-        "",
+        "Crichtonsaurus yang berarti Kadal Crichton,  adalah genus dinosaurus ankylosaurid herbivorayang hidup pada Zaman Kapur Akhir di tempat yang sekarang disebut Tiongkok. Namanya diambil dari nama Michael Crichton, penulis novel dinosaurus Jurassic Park.",
       secdescription:
-        "",
+        "Pada tahun 2010, Gregory S. Paul memperkirakan panjang tubuh spesimen Crichtonsaurus bohlini mencapai 3,5 meter, dan beratnya setengah ton. Sebagai anggota ordo Ornithischia, spesies ini memiliki panggul yang menghadap ke belakang, mirip dengan burung.",
     },
     {
       id: 103,
@@ -1148,7 +1148,7 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/huayangosaurus.png",
       button: "baca",
       description:
-        "",
+        "Huayangosaurus",
       secdescription:
         "",
     },
@@ -1159,31 +1159,31 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/kentrosaurus.png",
       button: "baca",
       description:
-        "",
+        "Huayangosaurus adalah genus dinosaurus stegosaurian dari Jurassic Tengah di wilayah Tiongkok, Ia hidup pada masa Bathonian hingga Callovian, sekitar 165 juta tahun yang lalu, sekitar 20 juta tahun sebelum kerabatnya yang terkenal, Stegosaurus, muncul di Amerika Utara.",
       secdescription:
-        "",
+        "Seperti stegosaurus lainnya, Huayangosaurus adalah herbivora berkaki empat dengan tengkorak kecil dan ekor berduri. Seperti kerabatnya yang lebih terkenal, Stegosaurus, Huayangosaurus memiliki dua baris pelat khas yang menjadi ciri semua stegosaurus. Pelat-pelat ini menjulang secara vertikal di sepanjang punggungnya yang melengkung. Huayangosaurus adalah salah satu stegosaurus terkecil yang diketahui, dengan panjang hanya 4 meter (13 kaki) dan massa tubuh 500 kilogram (1.100 lb).",
     },
     {
       id: 106,
-      name: "Gigantspinosaurus",
+      name: "Gigantspinosaur",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/gigantspinosaurus.png",
       button: "baca",
       description:
-        "",
+        "Gigantspinosaurus adalah genus dinosaurus stegosaurid dari Jurassic Akhir di Wilayah Lindi Tanzania. Jenis spesiesnya adalah K. aethiopicus, dinamai dan dideskripsikan oleh ahli paleontologi Jerman Edwin Hennig pada tahun 1915.",
       secdescription:
-        "",
+        "Kentrosaurus aethiopicus adalah stegosaurus yang relatif kecil, panjangnya mencapai 4-4,5 m (13-15 kaki) dan massa tubuh 700-1.600 kg (1.500-3.500 lb). Beberapa spesimen menunjukkan bahwa mungkin ada individu yang relatif lebih besar.",
     },
     {
       id: 107,
-      name: "Chungkingosaurus",
+      name: "Chungkingosaur",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/chungkingosaurus.png",
       button: "baca",
       description:
-        "",
+        "Chungkingosaurus yang berarti Kadal Chongqing, adalah genus dinosaurus herbivora dari Formasi Shaximiao Atas Jurassic Akhir di tempat yang sekarang disebut Tiongkok.",
       secdescription:
-        "",
+        "Chungkingosaurus memiliki tinggi 1 meter dengan panjanag tubuh 3.2 meter dan memiliki berat 1,5 ton (2,5 lb). Spesimen ini menunjukkan bahwa ada beberapa individu yang relatif lebih besar.",
     },
     {
       id: 108,
@@ -1192,9 +1192,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/wuerhosaurus.png",
       button: "baca",
       description:
-        "",
+        "Wuerhosaurus adalah genus dinosaurus stegosaurid dariPeriode Kapur Awal Tiongkok dan Mongolia. Oleh karena itu, ini adalah salah satu genera stegosaurian terakhir yang diketahui keberadaannya, karena sebagian besar lainnya hidup pada akhir Jurassic",
       secdescription:
-        "",
+        "Wuerhosaurus homheni mungkin adalah hewan berbadan lebar, panjangnya mencapai 7 meter (23 kaki) dan massa tubuh 4 metrik ton (4,4 ton pendek). Hanya beberapa tulang berserakan yang ditemukan, sehingga restorasi penuh menjadi sulit.",
     },
     {
       id: 109,
@@ -1214,9 +1214,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/dimetrodon.png",
       button: "baca",
       description:
-        "",
+        "Dimetrodon adalah genus sinapsidanon-mamalia yang hidup pada zaman Cisuralian periode Permian Awal, sekitar 295-272 juta tahun yang lalu.",
       secdescription:
-        "",
+        "Dimetrodon adalah sinapsid berkaki empat yang didukung layar yang kemungkinan besar memiliki postur semi-menyebar antara mamalia dan kadal dan juga dapat berjalan dalam posisi lebih tegak dengan tubuh dan sebagian besar atau seluruh ekornya terangkat dari tanah. Kebanyakan spesies Dimetrodon memiliki panjang berkisar antara 1,7 hingga 4,6 m (6 hingga 15 kaki) dan diperkirakan memiliki berat antara 28 dan 250 kg (60 dan 550 lb). Spesies terkecil yang diketahui D. teutonis memiliki panjang sekitar 60 cm (24 in) dan berat 14 kilogram (31 lb).",
     },
     {
       id: 111,
@@ -1225,9 +1225,9 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/minmi.png",
       button: "baca",
       description:
-        "",
+        "MinmiMinmi adalah genus dinosaurus ankylosaurian herbivora kecil yang hidup pada awal Zaman Kapur Australia, sekitar 120 hingga 112 juta tahun yang lalu. Ini adalah spesimen pertama dari thyreophoran yang ditemukan di Belahan Bumi Selatan",
       secdescription:
-        "",
+        "Minmi adalah ankylosaurian lapis baja berkaki empat herbivora kecil. Pada tahun 2016, Gregory S. Paul memperkirakan panjangnya 3 meter (9,8 kaki), beratnya 300 kilogram (660 lb). Untuk ankylosaurian, Minmi memiliki anggota tubuh yang panjang, mungkin digunakan untuk mencari perlindungan dengan cepat di bawah semak-semak ketika terancam oleh predator besar yang mungkin mampu membalikkan hewan kecil tersebut ke punggungnya.",
     },
     {
       id: 112,
@@ -1236,20 +1236,11 @@ const Data = () => {
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/lystrosaurus.png",
       button: "baca",
       description:
-        "",
+        "Lystrosaurus yang berarti Sekop Kadal, adalah genus terapi dicynodont herbivora yang telah punah dari zaman Permian akhir danTrias Awal (sekitar 250 juta tahun yang lalu). Ia hidup di tempat yang sekarang disebut Antartika, India, Cina, Mongolia, Rusia Eropa, dan Afrika Selatan",
       secdescription:
-        "",
+        "Lystrosaurus adalah terapisid dicynodont, panjang antara 0,6 hingga 2,5 m (2 hingga 8 kaki) dengan rata-rata sekitar 0,9 m (3 kaki) tergantung pada spesiesnya. ia Ukurannya berkisar dari anjing kecil hingga panjang 8 kaki (2,5 meter).",
     },
   ];
-  // {
-  //   id: 66,
-  //   name: "Hylotomus",
-  //   category: "Dinosaurus karnivora",
-  //   image: "/images/hylotomus.png",
-  //   button: "baca",
-  //   description:
-  //     "Hylotomus, atau dinosaurus hylotomus, adalah genus dari dinosaurus dromaeosaurid yang terdiri dari dua spesies, yaitu Hylotomus australis dan Hylotomus melanotis. ",
-  // },
 
   const handleSearch = (e) => {
     const inputValue = e.target.value.toLowerCase();
@@ -1323,10 +1314,6 @@ const Data = () => {
             onBacaClick={() => handleOpenModal(dino)}
           />
         ))}
-      </div>
-
-      <div className="mt-12 -mb-6 md:px-10 px-4 flex justify-center items-center">
-        <p className="text-xs text-slate-300">Note : Mayoritas sumber gambar dari Jurassic World Evolution 2</p>
       </div>
       
       {selectedDino && (

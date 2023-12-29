@@ -44,7 +44,7 @@ export const Team = () => {
           </div>
         </div>
         <p className="text-base md:text-lg mt-10 text-center -mb-20">
-          follow ig aing cuy tuh di bawah, klik aja logo ig nya..
+          follow ig aing napa cuy, klik aja itu logo ig di bawah..
         </p>
       </div>
     </div>
