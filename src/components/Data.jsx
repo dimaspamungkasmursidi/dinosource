@@ -10,32 +10,33 @@ const Data = () => {
   const data = [
     {
       id: 1,
+      name: "Barats Hyper",
+      category: "Dinosaurus Langka",
+      image: "https://p3d.in/model_data/snapshot/VZjoS",
+      // https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/2b7611ce-5d5b-424a-98eb-4a3f262152c5/dfknthg-00140907-2f94-4a30-97f1-a093ddee5ede.png BARATS BERSKIN
+      button: "Lihat",
+      description:
+        "Barats bukanlah seekor dinosaurus, melainkan pemilik yg mengendarai Detona (Dinosaurus yang ditunggangi Barats). Detona merupakan dinosaurus yang langka, kemampuannya menagkap mangsa sangatlah unik, dengan cara menyerudug mangsanya lalu diemut-emut dan di lepeh lagi..",
+      secdescription: 
+        "Habitat barats yaitu di lane of down, yang pake barats biasanya BEBAN... mending Nana hyper...",
+    },
+    {
+      id: 2,
       name: "T-rex",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/tyrannosaurusrex.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Tyrannosaurus Rex adalah genus dinosaurus theropoda besar. Spesies Tyrannosaurus rex ( rex berarti raja dalam bahasa Latin ), sering disebut T-rex atau bahasa sehari-hari Tirex, adalah salah satu theropoda yang paling terwakili. Ia hidup di wilayah yang sekarang disebut Amerika Utara bagian barat, di wilayah yang dulunya merupakan benua kepulauan yang dikenal sebagai Laramidia. Fosil ditemukan dalam berbagai formasi batuan yang berasal dari zaman Maastricht pada periode Kapur Atas, 68 hingga 66 juta tahun yang lalu. Ia merupakan anggota tyrannosaurid terakhir yang diketahui dan salah satu dinosaurus non- unggas terakhir yang ada sebelum peristiwa kepunahan Kapur Paleogen.",
       secdescription: 
         "T-Rex adalah salah satu karnivora darat terbesar sepanjang masa. Spesimen lengkap yang disimpan di Museum Sejarah Alam Field, Chicago, dengan kode FMNH PR2081 dan dijuluki Sue, memiliki panjang 14 m[3] dan tinggi 4 m di panggulnya.[4] Menurut kajian-kajian terkini, Tyrannosaurus juga diperkirakan memiliki massa antara 8,4 ton sampai 14 ton saat masih hidup.",
     },
     {
-      id: 2,
-      name: "Acrocanthosaur",
-      category: "Dinosaurus karnivora",
-      image: "https://cdn.paleo.gg/games/jwe2/images/dino/acrocanthosaurus.png",
-      button: "baca",
-      description:
-        "Acrocanthosaurus yang berarti kadal bertulang tinggi, adalah genus dinosaurus dari famili Carcharodontosauridae yang hidup pada awal masa Periode Kapur di Amerika Utara. Fosilnya ditemukan di Texas, Oklahoma, dan kemungkinan di Maryland karena ditemukan fosil gigi yang diduga milik Acrocanthosaurus. Acrocanthosaurus merupakan pemangsa terbesar paling awal di amerika utara jauh sebelum Tyrannosaurus muncul.",
-      secdescription:
-        "Acrocanthosaurus adalah salah satu theropoda terbesar, panjangnya mencapai 11 m (36 ft), dan berbobot 62 t (137.000 pon). Acrocanthosaurus merupakan pemangsa terbesar panjang nya mencapai 11 meter, kerabat dari Acrocanthosaurus juga salah satu theropoda terbesar seperti Giganotosaurus di Amerika Selatan, dan Carcharodontosaurus di Afrika. Acrocanthosaurus mungkin berburu Tenontosaurus sebagai menu utamanya. Terkadang ia juga berburu dinosaurus yang lebih besar seperti Sauroposeidon, dimasa nya ia adalah pemangsa teratas.",
-    },
-    {
       id: 3,
       name: "Albertosaurus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/albertosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Albertosaurus berarti kadal Alberta, adalah genus dinosaurus dari famili Carcharodontosauridae yang hidup di Amerika Utara pada awal hingga pertengahan zaman Maastrichtian pada periode Kapur Akhir , sekitar 71  juta tahun yang lalu. Fosilnya ditemukan di Amerika Selatan, Afrika, dan Asia.",
       secdescription:
@@ -46,7 +47,7 @@ const Data = () => {
       name: "Carcharodonto",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/carcharodontosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Carcharodontosaurus yang berarti kadal bergigi hiu, merupakan genus dinosaurus theropoda karnivora yang hidup di Afrika Utara dari sekitar 99 hingga 94 juta tahun lalu selama tahap Cenomanian pada Kapur Akhir, ia salah satu dinosaurus karnivora terbesar yang pernah berjalan di Bumi. Karnivora raksasa ini merupakan salah satu yang paling besar pula dari kelompok Carnosauria. Dinosaurus ini hanya berukuran lebih besar dari kerabat Giganotosaurus.",
       secdescription:
@@ -57,7 +58,7 @@ const Data = () => {
       name: "Carnotaurus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/carnotaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Carnotaurus yang berarti daging banteng, adalah genus dinosaurus theropoda yang hidup di Amerika Selatan selama periode Kapur Akhir, mungkin antara 71 dan 69 juta tahun yang lalu. Satu-satunya spesies adalah Carnotaurus sastrei. Dikenal dari satu kerangka yang terpelihara dengan baik, ini adalah salah satu theropoda yang paling banyak dipahami dari Belahan Bumi Selatan. Kerangka tersebut, ditemukan pada tahun 1984, ditemukan di Provinsi Chubut Argentinadari bebatuan Formasi La Colonia.",
       secdescription:
@@ -68,7 +69,7 @@ const Data = () => {
       name: "Ceratosaurus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/ceratosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Ceratosaurus yang berarti tanduk kadal,  adalah dinosaurus theropoda karnivora yang hidup pada periode Jurassic Akhir ( Kimmeridgian sampai zaman Tithonian ). Genus inipertama kali dideskripsikan pada tahun 1884 oleh ahli paleontologi Amerika Otniel Charles Marsh berdasarkan kerangka hampir lengkap yang ditemukan di Garden Park, Colorado, pada batuan milik Formasi Morrison. Jenis spesiesnya adalah Ceratosaurus nasicornis.",
       secdescription:
@@ -79,7 +80,7 @@ const Data = () => {
       name: "Allosaurus",
       category: "Dinosaurus karnivora",
       image: "/images/allosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Allosaurus  merupakan dinosaurus karnivora terbesar dalam Periode Jurasik. Allosaurus merupakan salah satu jenis dinosaurus yang paling baik dikenal sejauh ini selain karnivora terdahulu lainnya seperti Megalosaurus dan Tyrannosaurus rex.",
       secdescription:
@@ -90,7 +91,7 @@ const Data = () => {
       name: "Velociraptor",
       category: "Dinosaurus karnivora",
       image: "/images/velociraptor.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Velociraptor adalah genus dari dinosaurus Dromaeosaurid yang hidup di Asia pada kala Kapur Akhir, sekitar 75 hingga 71 juta tahun lalu. mongoliensis, yang dinamai dan dideskripsikan pada 1924. Fosil dari spesies tersebut ditemukan di Formasi Djadokhta, Mongolia. Spesies lainnya, V. osmolskae, dinamai pada 2008 bedasarkan material tengkorak yang ditemukan di Cina.",
       secdescription:
@@ -101,7 +102,7 @@ const Data = () => {
       name: "Tarbosaurus",
       category: "Dinosaurus karnivora",
       image: "/images/tarbosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Tarbosaurus adalah sebuah genus dinosaurus teropoda yang tergolong ke dalam famili Tyrannosauridae. Mereka hidup di Asia sekitar 70 juta tahun yang lalu pada akhir zaman Kapur. Fosil-fosil dinosaurus ini telah ditemukan di Mongolia, dan beberapa fosil yang tidak lengkap juga telah ditemukan di Tiongkok.",
       secdescription:
@@ -112,7 +113,7 @@ const Data = () => {
       name: "Cryolopho",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/cryolophosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Cryolopho Ceratosaurus adalah theropoda berukuran sedang. Spesimen aslinya diperkirakan memiliki panjang 5,3 m (17 kaki) atau 5,69 m (18,7 kaki), sedangkan spesimen yang digambarkan sebagai C. dentisulcatus lebih besar, dengan panjang sekitar 7 m (23 kaki). Ceratosaurus dicirikan oleh rahang dalam yang menopang gigi seperti bilah yang sangat panjang secara proporsional, tanduk seperti punggung bukit yang menonjol di garis tengah moncong, dan sepasang tanduk di atas mata. Tungkai depannya sangat pendek, namun tetap berfungsi penuh.",
       secdescription:
@@ -123,7 +124,7 @@ const Data = () => {
       name: "Giganotosaurus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/giganotosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Giganotosaurus adalah genus dinosaurus theropoda yang hidup di tempat yang sekarang disebut Argentina, pada masa usia Cenomanian awalpada periode Kapur Akhir, sekitar 99,6 hingga 95 juta tahun yang lalu. Spesimen holotipe ditemukan di Formasi Candeleros Patagoniapada tahun 1993 dan hampir 70% selesai. Hewan itu diberi nama Giganotosaurus carolinii pada tahun 1995, nama genus diterjemahkan menjadi kadal selatan raksasa, dan nama spesifiknya menghormati penemunya, Ruben Carolini",
       secdescription:
@@ -134,7 +135,7 @@ const Data = () => {
       name: "Indomi-Rex",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/indominusrex.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Indominus Rex adalah dinosaurus hibrida buatan manusia. Itu dibuat dengan DNA spesies dinosaurus theropoda lainnya (termasuk Carnotaurus, Giganotosaurus, Majungasurus, Rugops, Therizinosaurus, Velociraptor dan Tyrannosaurus Rex), serta hewan modern seperti sotong, katak panah pohon, dan pit viper. Diketahui bahwa Indominus Rex dirancang untuk menjadi dinosaurus paling dominan dalam hal ukuran dan kecerdasan, serta paling mematikan di antara semuanya.",
       secdescription:
@@ -145,7 +146,7 @@ const Data = () => {
       name: "Majungasaurus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/majungasaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Majungasaurus yang berarti Kadal Mahajanga, adalah sebuah genus dari dinosaurus theropoda dari famili abelisauridae yang hidup di Madagaskar dari 70 sampai 66 juta tahun yang lalu, pada Periode Kapur, membuatnya menjadi dinosaurus tidak terbang terakhir yang diketahui punah pada masa Peristiwa kepunahan Kapur-Paleogen. Genus ini beranggotakan sebuah spesies tunggal, Majungasaurus crenatissimus.",
       secdescription:
@@ -156,7 +157,7 @@ const Data = () => {
       name: "Qianzhousaurus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/qianzhousaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Qianzhousaurus yang berarti kadal Qianzhou, adalah genus dinosaurus tyrannosaurid yang hidup di Asia selama zaman Maastrichtian pada periode Kapur Akhir. Saat ini hanya ada satu spesies yang diberi nama, yaitu spesies tipe Qianzhousaurus sinensis, yang merupakan anggota suku Alioramini dan berkerabat paling dekat dengan Alioramus, satu-satunya alioramin lain yang diketahui.",
       secdescription:
@@ -167,7 +168,7 @@ const Data = () => {
       name: "Metriacantho",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/metriacanthosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Metriacanthosaurus (artinya kadal berduri sedang) adalah genus dinosaurus metriacanthosaurid dari Tanah Liat Oxford bagian atas Inggris, berasal dari periode Jurassic Akhir, sekitar 160 juta tahun yang lalu ( Oxfordian bawah ).",
       secdescription:
@@ -175,43 +176,54 @@ const Data = () => {
     },
     {
       id: 16,
+      name: "Acrocanthosaur",
+      category: "Dinosaurus karnivora",
+      image: "https://cdn.paleo.gg/games/jwe2/images/dino/acrocanthosaurus.png",
+      button: "Lihat",
+      description:
+        "Acrocanthosaurus yang berarti kadal bertulang tinggi, adalah genus dinosaurus dari famili Carcharodontosauridae yang hidup pada awal masa Periode Kapur di Amerika Utara. Fosilnya ditemukan di Texas, Oklahoma, dan kemungkinan di Maryland karena ditemukan fosil gigi yang diduga milik Acrocanthosaurus. Acrocanthosaurus merupakan pemangsa terbesar paling awal di amerika utara jauh sebelum Tyrannosaurus muncul.",
+      secdescription:
+        "Acrocanthosaurus adalah salah satu theropoda terbesar, panjangnya mencapai 11 m (36 ft), dan berbobot 62 t (137.000 pon). Acrocanthosaurus merupakan pemangsa terbesar panjang nya mencapai 11 meter, kerabat dari Acrocanthosaurus juga salah satu theropoda terbesar seperti Giganotosaurus di Amerika Selatan, dan Carcharodontosaurus di Afrika. Acrocanthosaurus mungkin berburu Tenontosaurus sebagai menu utamanya. Terkadang ia juga berburu dinosaurus yang lebih besar seperti Sauroposeidon, dimasa nya ia adalah pemangsa teratas.",
+    },
+    {
+      id: 17,
       name: "Yutyrannus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/yutyrannus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Yutyrannus (berarti tiran berbulu) adalah genus dinosaurus tyrannosauroid proceratosaurid yang berisi satu spesies yang diketahui, Yutyrannus huali. Spesies ini hidup pada periode Kapur awal di tempat yang sekarang menjadi wilayah timur laut Tiongkok .",
       secdescription:
         "Yutyrannus adalah predator berkaki dua yang besar. Holotipe dan spesimen tertua yang diketahui diperkirakan memiliki panjang 9 meter (29,5 kaki) dan perkiraan berat sekitar 1.414 kilogram (3.117 lb). Pada tahun 2016, Gregory S. Paul memberikan perkiraan lebih rendah yaitu 7,5 meter (24,6 kaki) dan 1,1 ton.",
     },
     {
-      id: 17,
+      id: 18,
       name: "Deinonychus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/deinonychus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Deinonychus adalah genus dinosaurus theropoda dromaeosaurid dengan satu spesies yang dideskripsikan, Deinonychus antirrhopus. Spesies ini, yang dapat tumbuh hingga sepanjang 3,4 meter (11 kaki), hidup pada awal Zaman Kapur, sekitar 115-108 juta tahun yang lalu (dari tahap pertengahan Aptian hingga awal Albian ). Fosil telah ditemukan dinegara bagian Montana, Utah, Wyoming, dan Oklahoma di AS",
       secdescription:
         "Berdasarkan beberapa spesimen dewasa, Paul memperkirakan bahwa Deinonychus bisa mencapai panjang 3,3-3,4 meter (10 kaki 10 inci - 11 kaki 2 inci), dengan panjang tengkorak 410 milimeter (16 inci), tinggi pinggul. 0,87 meter (2,9 kaki) dan massa tubuh 60-73 kg (132-161 lb). Campione dan rekan-rekannya mengusulkan perkiraan massa yang lebih tinggi yaitu 100 kg (220 lb) berdasarkan lingkar tulang paha dan humerus.",
     },
-    {
-      id: 18,
-      name: "Indoraptor",
-      category: "Dinosaurus karnivora",
-      image: "https://cdn.paleo.gg/games/jwe2/images/dino/indoraptor.png",
-      button: "baca",
-      description:
-        "Indoraptor adalah dinosaurus hibrida yang diciptakan oleh Henry Wu di laboratorium bawah tanah Lockwood Manor. Dia berperan sebagai antagonis sekunder dari Jurassic World: Fallen Kingdom.",
-      secdescription:
-        "Penampilan Indoraptor sangat mirip dengan Indominus rex, tetapi panjang tubuhnya sekitar setengah dari pendahulunya. Dia memiliki cakar yang mirip dengan Velociraptor, dan warnanya terutama hitam dengan garis kuning keemasan mulai dari pangkal leher hingga ekornya, yang sangat mirip dengan garis biru metalik milik Blue. Seperti Indominus rex, Indoraptor memiliki tangan dengan empat jari, ibu jari yang berlawanan, dan tiga jari utama. Bentuk kepalanya mirip dengan Tyrannosaurus rex.",
-    },
+    // {
+    //   id: 18,
+    //   name: "Indoraptor",
+    //   category: "Dinosaurus karnivora",
+    //   image: "https://cdn.paleo.gg/games/jwe2/images/dino/indoraptor.png",
+    //   button: "Lihat",
+    //   description:
+    //     "Indoraptor adalah dinosaurus hibrida yang diciptakan oleh Henry Wu di laboratorium bawah tanah Lockwood Manor. Dia berperan sebagai antagonis sekunder dari Jurassic World: Fallen Kingdom.",
+    //   secdescription:
+    //     "Penampilan Indoraptor sangat mirip dengan Indominus rex, tetapi panjang tubuhnya sekitar setengah dari pendahulunya. Dia memiliki cakar yang mirip dengan Velociraptor, dan warnanya terutama hitam dengan garis kuning keemasan mulai dari pangkal leher hingga ekornya, yang sangat mirip dengan garis biru metalik milik Blue. Seperti Indominus rex, Indoraptor memiliki tangan dengan empat jari, ibu jari yang berlawanan, dan tiga jari utama. Bentuk kepalanya mirip dengan Tyrannosaurus rex.",
+    // },
     {
       id: 19,
       name: "Atrociraptor",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/atrociraptor.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Atrociraptor (berarti pencuri buas) adalah genus dinosaurus theropoda saurornitholestine dromaeosaurid dari Kapur Akhir ( tahap Maastrichtian ) di Alberta, Kanada. enis ( dan satu-satunya) spesimen Atrociraptor, ditemukan oleh Wayne Marshall pada tahun 1995, di lapisan Formasi Horseshoe Canyon yang juga mengandung tulang Albertosaurus.",
       secdescription:
@@ -222,7 +234,7 @@ const Data = () => {
       name: "Herrerasaurus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/herrerasaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Herrerasaurus kemungkinan merupakan genus dinosaurus saurischia dari periode Trias Akhir. Genus ini adalah salah satu dinosaurus paling awal dari catatan fosil. Namanya berarti Kadal Herrera, diambil dari nama peternak yang menemukan spesimen pertama pada tahun 1958 di Amerika Selatan. Semua fosil karnivora ini yang diketahui telah ditemukan di Formasi Ischigualasto pada zaman Carnian ( Trias akhir menurut ICS , bertanggal 231,4 juta tahun yang lalu) di barat laut Argentina.",
       secdescription:
@@ -233,7 +245,7 @@ const Data = () => {
       name: "Australovena",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/australovenator.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Australovena yang berarti Pemburu Selatan,  adalah genus dinosaurus theropoda megaraptoran dari Formasi Winton zaman Cenomanian (Kapur Akhir) ( bertanggal 95 juta tahun yang lalu ) di Australia.",
       secdescription:
@@ -244,7 +256,7 @@ const Data = () => {
       name: "Troodon",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/troodon.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Troodon adalah dinosaurus kecil pemakan daging dari genus Troodon dengan kaki panjang dan tipis yang memungkinkannya mencapai kecepatan tinggi saat mengejar mangsa. Namanya dalam bahasa Yunani berarti gigi yang terluka, mengacu pada gigi serinya yang tajam, sedangkan mata theropoda yang besar memungkinkannya berburu dalam kegelapan. Otak Troodon yang besar - tingginya hanya sekitar tiga kaki - menjadikannya salah satu dinosaurus paling cerdas. Troodon pertama kali ada sekitar 65-75 juta tahun yang lalu, pada periode Kapur Akhir. Penemuan fosil di Alaska Utara menunjukkan bahwa dinosaurus ini mungkin lebih menyukai iklim dingin, meskipun gigi yang diyakini milik Troodon telah ditemukan di selatan Texas dan New Mexico.",
       secdescription:
@@ -255,7 +267,7 @@ const Data = () => {
       name: "Coelophysis",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/coelophysis.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Coelophysis adalah genus dinosaurus theropoda coelophysid yang hidup sekitar 215 hingga 208,5 juta tahun yang lalu selama periode Trias Akhir dari pertengahan hingga zaman Norian akhir di tempat yang sekarang menjadi Amerika Serikat bagian barat daya.",
       secdescription:
@@ -266,7 +278,7 @@ const Data = () => {
       name: "Compsognathus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/compsognathus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Compsognathus adalah genus dinosaurus theropoda kecil, bipedal, dan karnivora. Anggota spesies tunggalnya Compsognathus longipes bisa tumbuh seukuran ayam. Mereka hidup sekitar 150  juta tahun yang lalu, pada zaman Tithonian di akhir periode Jurassic, di tempat yang sekarang disebut Eropa.",
       secdescription:
@@ -277,7 +289,7 @@ const Data = () => {
       name: "Proceratosaur",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/proceratosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Proceratosaurus adalah genus dinosaurus theropoda karnivora dari Jurassic Tengah ( Bathonian ) Inggris . Ini berisi satu spesies. P. bradleyi, diketahui dari sebagian besar tengkorak lengkap dan rahang bawah. Proceratosaurus adalah dinosaurus kecil, diperkirakan berukuran panjang sekitar 3 m (9,8 kaki).",
       secdescription:
@@ -288,7 +300,7 @@ const Data = () => {
       name: "Scorpios-Rex",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/scorpiosrex.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Scorpios-Rex (dengan nama kode E750 ) adalah dinosaurus hibrida buatan Henry Wu dalam film Jurassic Park. Ini adalah dinosaurus yang dibekukan dan ditawan di terowongan rahasia InGen sampai ia melarikan diri. Ia juga merupakan antagonis utama Jurassic World: Camp Cretaceous , berperan sebagai antagonis tak terlihat di Musim 1, antagonis terakhir Musim 2 yang tak terlihat, antagonis utama Musim 3, dan antagonis anumerta Musim 4 dan 5.",
       secdescription:
@@ -299,7 +311,7 @@ const Data = () => {
       name: "Concavenator",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/concavenator.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Concavenator adalah dinosaurus theropoda carcharodontosaurid punah yang hidup sekitar 130 juta tahun yang lalu selama periode Kapur Awal ( zaman Barremian ). Jenis spesiesnya adalah C. corcovatus. Concavenator corcovatus artinya Pemburu Cuenca dengan punuk. Fosil tersebut ditemukan disitus fosil Las Hoyas Spanyol.",
       secdescription:
@@ -310,7 +322,7 @@ const Data = () => {
       name: "Monolopho",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/monolophosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Monolophosaurus yang berarti Kadal Jambul Tunggal, adalah genus dinosaurus theropoda tetanuran yang telah punah dari Formasi Shishugou Jurassic Tengah di tempat yang sekarang disebut Xinjiang , Tiongkok.",
       secdescription:
@@ -321,7 +333,7 @@ const Data = () => {
       name: "Spinosaurus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/spinosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Spinosaurus (Dari Bahasa Yunani, Spino = Tulang belakang atau duri, dan Sauros = kadal) merupakan dinosaurus terbesar dari anggota Spinosaurida. Spinosaurus juga merupakan satu dari tiga Theropoda terbesar sepanjang masa melebihi Tyrannosaurus (T-Rex), yang hidup di daerah yang kini bisa dikenali sebagai Afrika bagian utara.",
       secdescription:
@@ -332,7 +344,7 @@ const Data = () => {
       name: "Suchomimus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/suchomimus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Suchomimus (berarti Peniru Buaya) adalah genus dinosaurus spinosaurid yang hidup antara 125 dan 112 juta tahun yang lalu di tempat yang sekarang disebut Niger, Afrika Barat, selama tahap Aptian hingga Albian awal pada periode Kapur Awal.",
       secdescription:
@@ -343,7 +355,7 @@ const Data = () => {
       name: "Baryonyx",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/baryonyx.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Baryonyx adalah genus dinosaurus theropoda yang hidup pada tahap Barremian pada periode Kapur Awal , sekitar 130-125 juta tahun yang lalu. Kerangka pertama ditemukan pada tahun 1983 di Smokejack Clay Pit , Surrey , Inggris, dalam sedimen Formasi Weald Clay , dan menjadi spesimen holotipe Baryonyx walkeri , dinamai oleh ahli paleontologi Alan J. Charig dan Angela C. Milner pada tahun 1986.",
       secdescription:
@@ -354,7 +366,7 @@ const Data = () => {
       name: "Ouranosaurus",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/ouranosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Ouranosaurus adalah genus dinosaurus hadrosauriform basal herbivorayang hidup pada tahap Aptian pada Kapur Awal di Niger dan Kamerun modern. Ouranosaurus berukuran panjang sekitar 7-8,3 meter (23-27 kaki) dan berat 2,2 metrik ton (2,4 ton pendek).",
       secdescription:
@@ -365,7 +377,7 @@ const Data = () => {
       name: "Stygimoloch",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/stygimoloch.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Stygimoloch yang berarti Iblis Styx, adalah sebuah genus dinosaurus pachycephalosaurid dari akhir Zaman Kapur, sekitar 66 juta tahun lalu. Genus ini ditemukan di Formasi Hell Creek, Formasi Ferris, dan Formasi Lance dari Western Interior (Amerika Serikat), hidup bersama Tyrannosaurus, Triceratops, dan Edmontosaurus.",
       secdescription:
@@ -376,7 +388,7 @@ const Data = () => {
       name: "Pachycephalo",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/pachycephalosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Pachycephalosaurus (nama ilmiahnya berarti kadal bertengkorak tebal) adalah herbivora Ornithischia dari famili Pachycephalosauridae yang hidup pada zaman Kapur Akhir di Amerika Utara. Genus ini diwakili oleh spesies P. wyomingensis.",
       secdescription:
@@ -387,7 +399,7 @@ const Data = () => {
       name: "Dracorex",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/dracorex.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Dracorex adalah genus dinosaurus herbivora dalam keluarga Pachycephalosauridae. Dia tinggal di Zaman Kapur Akhir di wilayah Amerika Utara. Satu-satunya spesiesnya adalah Dracorex hogwartsia, yang berarti Raja Naga Hogwarts, dinamai berdasarkan buku Harry Potter karya JK Rowling.",
       secdescription:
@@ -398,7 +410,7 @@ const Data = () => {
       name: "Homalocephale",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/homalocephale.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Homalocephale adalah genus dinosaurus pachycephalosaurid yang hidup pada periode Kapur Akhir di tempat yang sekarang disebut Formasi Nemegt, Mongolia, sekitar 70 juta tahun yang lalu.",
       secdescription:
@@ -409,7 +421,7 @@ const Data = () => {
       name: "Iguanodon",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/iguanodon.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Iguanodon yang berarti Gigi Iguana, adalah genus dari dinosaurus iguanodontid yang dinamai pada 1825. Meski banyak spesies yang ditemukan di dari seluruh dunia sudah diklasifikasikan kedalam genus ini, berasal dari Jura Akhir hingga Kapur Awal di Belgia, Jerman, Britania Raya dan Spanyol, sekitar 126 hingga 122 juta tahun lalu.",
       secdescription:
@@ -420,7 +432,7 @@ const Data = () => {
       name: "Maiasaura",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/maiasaura.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Maiasaura yang berarti Ibu Yang Baik, adalah genus dinosaurus saurolophine hadrosaurid (paruh bebek) yang hidup di wilayah yang saat ini dicakup oleh negara bagian Montana dan provinsi Alberta, Kanada, pada Periode Kapur Atas (pertengahan hingga akhir Campanian ), sekitar 76,7 juta tahun yang lalu.",
       secdescription:
@@ -431,7 +443,7 @@ const Data = () => {
       name: "Muttaburrasaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/muttaburrasaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Muttaburrasaurus adalah genus dinosaurus ornithopoda iguanodontian herbivora, yang hidup di tempat yang sekarang menjadi bagian timur laut Australia antara 112 dan 103 juta tahun yang lalu selama periode Kapur awal.",
       secdescription:
@@ -442,7 +454,7 @@ const Data = () => {
       name: "Edmontosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/edmontosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Edmontosaurus yang berarti Kadal Dari Edmonton, sering kali dalam bahasa sehari-hari dan sejarah dikenal sebagai Anatosaurus atau Anatotitan (berarti Kadal Bebek dan Bebek Raksasa). Ia mengandungi dua spesies yang diketahui : Edmontosaurus regalis dan Edmontosaurus annectens. Fosil E. regalis telah ditemukan di bebatuan di Amerika Utara bagian barat yang berasal dari zaman Campanian akhir pada periode Kapur 73 juta tahun yang lalu, sedangkan fosil E. annectens ditemukan di wilayah geografis yang sama dari bebatuan yang bertanggal akhir tahunMaastricht, 66 juta tahun yang lalu.",
       secdescription:
@@ -453,7 +465,7 @@ const Data = () => {
       name: "Dryosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/dryosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Dryosaurus yang berarti Kadal Pohon, adalah genus dinosaurus ornithopoda yang hidup pada periode Jurassic Akhir. Itu adalah iguanodont (sebelumnya diklasifikasikan sebagai hypsilophodont ). Fosil telah ditemukan di Amerika Serikat bagian barat dan pertama kali ditemukan pada akhir abad ke-19.",
       secdescription:
@@ -464,7 +476,7 @@ const Data = () => {
       name: "Therizinosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/therizinosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Therizinosaurus yang berarti Kadal Sabit, adalah genus therizinosaurid sangat besaryang hidup di Asia selama periode Kapur Akhir di tempat yang sekarang disebutFormasi Nemegt. 70 juta tahun yang lalu",
       secdescription:
@@ -475,7 +487,7 @@ const Data = () => {
       name: "Struthiomimus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/struthiomimus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Struthiomimus yang berarti Meniru Burung Unta, adalah genus dinosaurus ornithomimid dari akhir Kapur Utara Amerika. Ornithomimid adalah dinosaurus berkaki panjang, berkaki dua, mirip burung unta dengan paruh tak bergigi.",
       secdescription:
@@ -486,7 +498,7 @@ const Data = () => {
       name: "Archaeorni",
       category: "Dinosaurus omnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/archaeornithomimus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Archaeornithomimus yang berarti Mimik Burung Kuno, adalah genus dinosaurus theropoda ornitomimosauria yang berasal dari Tiongkok pada masa Kapur Akhir sekitar 70 juta tahun yang lalu. Genus ini ditemukan pada tahun 1923 selama ekspedisi Museum Sejarah Alam Amerika di Mongolia Dalam yang dipimpin oleh Roy Chapman Andrews.",
       secdescription:
@@ -497,7 +509,7 @@ const Data = () => {
       name: "Gallimimus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/gallimimus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Gallimimus adalah genus dari dinosaurus theropoda maniraptoriformes yang hidup pada wilayah yang sekarang merupakan Mongolia pada periode Kapur Akhir, sekitar 70 juta tahun lalu. Beberapa fosil yang merepresentasikan berbagai tahapan hidup ditemukan oleh tim ekspedisi Polandia-Mongolia ke Gurun Gobi pada 1960-an.",
       secdescription:
@@ -508,7 +520,7 @@ const Data = () => {
       name: "Corythosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/corythosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Corythosaurus yang berarti Kadal Berhelm, adalah genus dinosaurus hadrosaurid Paruh Bebek dari periode Kapur Akhir, sekitar 77-75,7  juta tahun lalu, di tempat yang sekarang menjadi Amerika Utara bagian barat. Namanya berasal dari kata Yunani κόρυς, yang berarti Helm, dinamai dan dijelaskan pada tahun 1914 oleh Barnum Brown",
       secdescription:
@@ -519,7 +531,7 @@ const Data = () => {
       name: "Olorotitan",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/olorotitan.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Olorotitan adalah genus monotipe dinosaurus paruh bebek lambeosaurine, yang mengandungi satu spesies, Olorotitan arharensis. Dinosaurus ini merupakan salah satu dinosaurus non-unggas terakhir yang punah selama peristiwa kepunahan Kapur-Paleogen, karena hidup dari zaman Maastricht pertengahan hingga akhirpada era Kapur Akhir.",
       secdescription:
@@ -530,7 +542,7 @@ const Data = () => {
       name: "Tsintaosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/tsintaosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Tsintaosaurus yang berarti Kadal Qingdao, adalah genus dinosaurus hadrosaurid dari Tiongkok. Pada tahun 1950, di Hsikou, dekat Chingkangkou, di Laiyang, Shandong, di bagian timur Tiongkok, berbagai sisa hadrosaurid besar ditemukan. Pada tahun 1958 spesies ini dideskripsikan oleh ahli paleontologi Tiongkok Yang Zhongjian (CC Young) sebagai spesies tipe Tsintaosaurus spinorhinus",
       secdescription:
@@ -541,7 +553,7 @@ const Data = () => {
       name: "Parasaurolophus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/parasaurolophus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Parasaurolophus adalah dinosaurus dari famili Hadrosauridae yang hidup pada masa periode kapur akhir sekitar 76,5-73 juta tahun yang lalu. Ia memiliki jambul berbentuk tabung di belakang kepala nya, mungkin untuk berkomunikasi dengan sesamanya, dan mungkin untuk memamerkan pada betina ketika musim kawin. Parasaurolophus berarti kadal yang hampir berjambul fosilnya ditemukan di Amerika utara, New meksiko, dan Kanada.",
       secdescription:
@@ -552,7 +564,7 @@ const Data = () => {
       name: "Tapejara",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/tapejara.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Tapejara (dari kata Tupi yang berarti Penguasa Jalan) adalah genus pterosaurus Brasil dari Zaman Kapur ( Formasi Santana, berumur sekitar 127 hingga 112 juta tahun yang lalu).",
       secdescription:
@@ -563,7 +575,7 @@ const Data = () => {
       name: "Tropeognathus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/tropeognathus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Tropeognathus (berarti Rahang Lunas) adalah genus pterosaurus besardari akhir Kapur Awal Amerika Selatan. Tropeognathus dianggap sebagai pterosaurus terbesar yang ditemukan di Belahan Bumi Selatan, hanya dapat disaingi oleh azhdarchids berukuran besar. Jenis dan satu-satunya spesies adalah Tropeognathus mesembrinus. Sisa-sisa fosil Tropeognathus telah ditemukan dari Formasi Romualdo, yang merupakan Lagerstätte yang terletak di Grup Santana di Cekungan Araripe di timur laut Brasil.",
       secdescription:
@@ -574,7 +586,7 @@ const Data = () => {
       name: "Dimorphodon",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/dimorphodon.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Dimorphodon adalah genus pterosaurus berukuran sedangdari Eropa pada awal Periode Jurassic (sekitar 201-191 juta tahun yang lalu).",
       secdescription:
@@ -585,7 +597,7 @@ const Data = () => {
       name: "Barbaridactylus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/barbaridactylus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Barbaridactylus adalah pterosaurus nyctosaurid dari Cekungan Ouled Abdoun di Maroko, sebuah cekungan yang berasal dari tahap Maastrichtian pada Kapur Akhir.",
       secdescription:
@@ -596,7 +608,7 @@ const Data = () => {
       name: "Cearadactylus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/cearadactylus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Cearadactylus adalah genus pterosaurus pterodactyloid anhanguerid besardari Formasi Romualdo Brazil, Amerika Selatan. Sisa-sisa fosil Cearadactylus berasal dari tahap Albian pada periode Kapur Awal, sekitar 112 juta tahun yang lalu.",
       secdescription:
@@ -607,7 +619,7 @@ const Data = () => {
       name: "Dsungaripterus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/dsungaripterus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Dsungaripterus adalah genus pterosaurus dsungaripterid dengan lebar sayap rata-rata 3 meter (9,8 kaki). Dsungaripterus hidup pada masa Kapur Awal di tempat yang sekarang disebut Tiongkok, dan fosil pertamanya ditemukan di Kelompok Tugulu ( Formasi Lianmuqin dan Shengjinkou ) di Cekungan Junggar.",
       secdescription:
@@ -618,7 +630,7 @@ const Data = () => {
       name: "Geosternbergia",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/geosternbergia.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Geosternbergia atau Pteranodon Sternbergi adalah spesies pteranodontid pterodactyloid pterosaurus genus Pteranodon yang telah punah dari periode geologi Kapur Akhir di Amerika Utara. P. Sternbergi adalah salah satu pterosaurus terbesar, dengan lebar sayap jantan mencapai 6 meter (20 kaki).",
       secdescription:
@@ -629,7 +641,7 @@ const Data = () => {
       name: "Jeholopterus",
       category: "Dinosaurus insectivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/jeholopterus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Jeholopterus adalah pterosaurus anurognathid kecildari Jurassic Tengah hingga Akhir [1] Lapisan Daohugou dari Formasi Tiaojishan di Mongolia Dalam , Tiongkok , diawetkan dengan serat pycnofibre seperti rambutdan sisa-sisa kulit.",
       secdescription:
@@ -640,7 +652,7 @@ const Data = () => {
       name: "Maaradactylus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/maaradactylus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Maaradactylus adalah genus pterosaurus pterodactyloid anhanguerid yang dikenal dari periode Kapur Bawah ( tahap Aptian hingga Albian ) dari Formasi Romualdo di timur laut Brasil.",
       secdescription:
@@ -651,7 +663,7 @@ const Data = () => {
       name: "Quetzalcoatlus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/quetzalcoatlus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Quetzalcoatlus adalah genus Pterosaurus dari Periode Kapur Akhir dari Amerika Utara.Lebar sayap yang terbesar sepanjang 12 meter (sebesar pesawat bermesin propeler).",
       secdescription:
@@ -662,7 +674,7 @@ const Data = () => {
       name: "Pteranodon",
       category: "Dinosaurus piscivora",
       image: "/images/pterosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Pterosaurus, yang artinya kadal bersayap, adalah suatu jenis reptil terbang dari cabang atau ordo Pterosauria yang telah punah. Mereka hidup dari akhir Trias sampai akhir masa Kapur (228 sampai 66 juta tahun yang lalu). Sayap mereka dibentuk oleh selaput kulit, otot, dan jaringan lain yang membentang dari pergelangan kaki yang secara cepat ataupun lambat akan tetap memanjang keempat jarinya.",
       secdescription:
@@ -673,7 +685,7 @@ const Data = () => {
       name: "Microraptor",
       category: "Dinosaurus karnivora",
       image: "/images/microraptor.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Microraptor adalah sebuah genus dari dinosaurus dromaeosaurid bersayap empat. Fosil yang terawetkan dengan baik dari genus ini ditemukan dari batuan Kapur Awal (kala Aptium) sekitar 125 hingga 120 juta tahun lalu pada Formasi Jiufotang, Liaoning, Tiongkok. ",
       secdescription:
@@ -684,7 +696,7 @@ const Data = () => {
       name: "Pyroraptor",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/pyroraptor.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Pyroraptor berarti pencuri api, adalah genus dinosaurus paravian yang telah punah, mungkin dromaeosaurid atau unenlagiid , dari pulau Ibero-Armorican Kapur Akhir, yang sekarang menjadi Prancis selatan dan Spanyol utara. Ia hidup pada tahap akhir Campanian dan awal Maastrichtian, sekitar 83,5 hingga 70,6 juta tahun yang lalu. Hal ini diketahui dari satu spesimen parsial yang ditemukan di Provence pada tahun 1992, setelah kebakaran hutan. Hewan itu diberi nama Pyroraptor olympius oleh Allain dan Taquet pada tahun 2000.",
       secdescription:
@@ -695,7 +707,7 @@ const Data = () => {
       name: "Oviraptor",
       category: "Dinosaurus omnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/oviraptor.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Oviraptor yang berarti Pencuri Telur, adalah genus dari dinosaurus oviraptorida yang hidup di Asia pada kala Kapur Akhir. Sisa-sisa pertama yang ditemukan dari genus ini ditemukan pada Formasi Djadokhta, Mongolia pada 1923 saat ekspedisi paleontologi yang dipimpin oleh Roy Chapman Andrews.",
       secdescription:
@@ -706,7 +718,7 @@ const Data = () => {
       name: "Gigantoraptor",
       category: "Dinosaurus omnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/gigantoraptor.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Gigantoraptor yang berarti Pencuri Raksasa, adalah genus dinosaurus oviraptorosaurus besaryang hidup di Asia selama periode Kapur Akhir. Hal ini diketahui dari Formasi Iren Dabasu di Mongolia Dalam, dimana sisa-sisa pertama ditemukan pada tahun 2005.",
       secdescription:
@@ -717,7 +729,7 @@ const Data = () => {
       name: "Utahraptor",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/utahraptor.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Utahraptor yang berarti Pencuri Dari Utah, adalah genus dinosaurus dromaeosaurid besar yang hidup di Amerika Utara selama periode Kapur awal. Utahraptor adalah karnivora bertubuh tegap, hidup di darat, dan berkaki dua . Dalam genus ini terdapat satu spesies yaitu, Utahraptor ostrommaysi, yang merupakan anggota famili Dromaeosauridae terbesar yang diketahui.",
       secdescription:
@@ -728,7 +740,7 @@ const Data = () => {
       name: "Deinocheirus",
       category: "Dinosaurus omnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/deinocheirus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Deinocheirus adalah genus ornithomimosaurus besaryang hidup pada Zaman Kapur Akhir sekitar 70 juta tahun yang lalu. Pada tahun 1965, sepasang lengan besar, ikat pinggang bahu, dan beberapa tulang dinosaurus baru lainnya pertama kali ditemukan di Formasi Nemegt di Mongolia",
       secdescription:
@@ -739,7 +751,7 @@ const Data = () => {
       name: "Archelon",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/archelon.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Archelon (Dari bahasa Yunani yang berarti pemimpin para penyu), adalah penyu laut prasejarah yang telah lama punah. Archelon merupakan penyu terbesar yang pernah didokumentasikan. Spesimen archelon pertama kali ditemukan di formasi geologis Pierre Shale, Dakota Selatan, Amerika Serikat oleh Dr. G.R. Wieland pada tahun 1895 dan berhasil dideskripsikan pada tahun berikutnya.",
       secdescription:
@@ -750,7 +762,7 @@ const Data = () => {
       name: "Tylosaurus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/tylosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Tylosaurus adalah hewan dari superfamili Mosasauroidea, sebuah kelompok, reptil laut pemangsa yang berkerabat dekat dengan biawak dan ular, dari periode Kapur Akhir.",
       secdescription:
@@ -761,7 +773,7 @@ const Data = () => {
       name: "Mosasaurus",
       category: "Dinosaurus karnivora",
       image: "/images/mosasaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Mosasaurus artinya kadal Sungai Meuse, adalah genus tipe (yang mendefinisikan contoh) dari Mosasauroidea. Hewan ini hidup pada 82 - 65 juta tahun yang lalu selama sub-kalaKampanium dan Maastrichtium dari Kapur Akhir. Fosil Mosasaurus paling awal yang pernah ditemukan adalah tengkorak-tengkorak di sebuah galian kapur dekat kota Maastricht di Belanda pada abad ke-18 akhir, yang awalnya dikira sebagai tulang-tulang buaya atau paus.",
       secdescription:
@@ -772,7 +784,7 @@ const Data = () => {
       name: "Dunkleosteus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/dunkleosteus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Dunkleosteus yang berarti Tulang Satu Dunkle untuk menghormati penemunya, Dr. David Dunkle dari Amerika Serikat, merupakan salah satu placodermi terbesar sepanjang masa dan satu dari ikan karnivora terkuat di dunia. Dunkleosteus berasal dari Amerika Serikat pada zaman devonian dan tinggal di perairan sedang dan dalam yang kaya akan mangsa semacam amfibi, crustacea, moluska, dan bahkan ikan lain.",
       secdescription:
@@ -783,7 +795,7 @@ const Data = () => {
       name: "Ichthyosaurus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/ichthyosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Ichthyosaurus yang berarti Kadal Ikan, adalah ordo reptil laut berukuran raksasa yang menyerupai ikan dan lumba-lumba. Mereka hidup selama era Mesozoikum; berdasarkan rekaman fosil, kelompok ini pertama kali muncul sekitar 245 juta tahun yang lalu, kemudian punah sekitar 90 juta tahun yang lalu (25 juta tahun sebelum kepunahan dinosaurus).",
       secdescription:
@@ -794,7 +806,7 @@ const Data = () => {
       name: "Kronosaurus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/kronosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Kronosaurus adalah sejenis plesiosauria raksasa berleher pendek (Pliosauroidea) yang hidup pada awal Periode Kapur di lautan Australia dan Kolombia. Reptil laut ini dinamakan Kronosaurus (yang berarti Kadal Kronos, Kronos adalah nama pimpinan para Titan dalam mitologi Yunani) karena ukurannya yang tergolong besar, sekitar 9-11 meter panjangnya. Kronosaurus hidup pada periode Kapur Awal, Aptian hingga Albian Akhir.",
       secdescription:
@@ -805,7 +817,7 @@ const Data = () => {
       name: "Liopleurodon",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/liopleurodon.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Liopleurodon yang berarti Gigi Bersisi Halus, adalah genus reptil laut karnivora yang masuk dalam kelompok Pliosauridae, sebuah klad plesiosauria berleher pendek. Liopleurodon hidup pada kala Callovian di Periode Jura Pertengahan (sekitar 160 - 155 juta tahun lalu). Ia merupakan predator puncak di lautan Eropa selama Periode Jura.",
       secdescription:
@@ -816,7 +828,7 @@ const Data = () => {
       name: "Shonisaurus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/shonisaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Shonisaurus adalah genus ichthyosaurus yang sangat besar. Setidaknya 37 spesimen fosil reptil laut yang tidak lengkap telah ditemukan di Formasi Luning Nevada, AS. Formasi ini berasal dari zaman Carnian akhir pada periode Trias akhir, sekitar 237-227 juta tahun yang lalu.",
       secdescription:
@@ -827,7 +839,7 @@ const Data = () => {
       name: "Nothosaurus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/nothosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Nothosaurus adalah genus reptil sauropterygian yang telah punah dari periode Trias, sekitar 240-210 juta tahun yang lalu. dengan fosil yang didistribusikan dari Afrika Utara dan Eropa ke Cina. Ia adalah anggota ordo nothosaur yang paling terkenal.",
       secdescription:
@@ -838,7 +850,7 @@ const Data = () => {
       name: "Elasmosaurus",
       category: "Dinosaurus piscivora",
       image: "/images/elasmosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Elasmosaurus Yang berarti Kadal Pelat Tipis, adalah genus dari Plesiosauria dengan leher yang sangat panjang yang hidup di periode Kapur, sekitar 80.5 juta tahun yang lalu. Pernah muncul di film animasi jepang yaitu Doraemon dengan nama Pisuke..",
       secdescription:
@@ -849,7 +861,7 @@ const Data = () => {
       name: "Plesiosaurus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/plesiosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Plesiosaurus adalah genus reptil sauropterygian laut besar yang telah punah dan hidup pada zaman Jurassic Awal. Hal ini diketahui dari kerangka yang hampir lengkap dari Lias Inggris. Hal ini dapat dibedakan dari kepalanya yang kecil, lehernya yang panjang dan ramping, badannya yang lebar seperti penyu, ekor yang pendek, dan dua pasang dayung yang besar dan memanjang.",
       secdescription:
@@ -860,7 +872,7 @@ const Data = () => {
       name: "Attenborosaurus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/attenborosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "AttenborosAttenborosaurus adalah genus pliosaurid yang telah punah yang hidup di Dorset, Inggris selama periode Jurassic Awal. Jenis spesiesnya adalahA. conybeari, ditemukan pada tahun 1880 dan dinamai pada tahun 1881 sebagai spesies Plesiosaurus sebelum diberikan genusnya sendiri pada tahun 1993.",
       secdescription:
@@ -871,7 +883,7 @@ const Data = () => {
       name: "Styxosaurus",
       category: "Dinosaurus piscivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/styxosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Styxosaurus adalah genus plesiosaurusdari keluarga Elasmosauridae, Spesimen tipe ditemukan di Hell Creek di Logan County, Kansas, yang merupakan sumber nama genus yang diciptakan oleh Samuel Paul Welles, yang mendeskripsikan genus tersebut pada tahun 1943.",
       secdescription:
@@ -882,7 +894,7 @@ const Data = () => {
       name: "Alamosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/alamosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Alamosaurus yang berarti kadal Ojo Alamo, adalah genus dinosaurus sauropoda opisthocoelicaudiine titanosaurian yang mengandung satu spesies yang diketahui, Alamosaurus sanjuanensis, dari zaman Maastrichtian pada Kapur Akhir periode di tempat yang sekarang menjadi bagian barat daya Amerika Utara.",
       secdescription:
@@ -893,7 +905,7 @@ const Data = () => {
       name: "Apatosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/apatosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Apatosaurus yang berarti Kadal Yang Menipu, adalah genus dinosaurus sauropoda herbivora yang hidup di Amerika Utara selama periode Jurassic Akhir.",
       secdescription:
@@ -904,7 +916,7 @@ const Data = () => {
       name: "Diplodocus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/diplodocus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Diplodocus adalah genus dinosaurus sauropod diplodocid yang fosilnya pertama kali ditemukan pada tahun 1877 oleh S. W. Williston. Dinosaurus ini hidup di Amerika Utara barat pada akhir periode Jurassic.Diplodocus dinamai berdasarkan bahasa Yunani dan Latin yang berarti Bertiang dua karena ruas serta tulang kakinya yang kokoh.",
       secdescription:
@@ -915,7 +927,7 @@ const Data = () => {
       name: "Camarasaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/camarasaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Camarasaurus adalah genus dinosaurusherbivora berkaki empat dan merupakan fosil sauropoda Amerika Utara yang paling umum. Sisa-sisa fosilnya telah ditemukan di Formasi Morrison, yang berasal dari zaman Jurassic Akhir ( tahapan Kimmeridgian hingga Tithonian ), antara 155 dan 145 juta tahun yang lalu.",
       secdescription:
@@ -926,7 +938,7 @@ const Data = () => {
       name: "Brachiosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/brachiosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Branchiosaurus adalah genus dinosaurus sauropoda yang hidup di Amerika Utara selama Jura Akhir, sekitar 154 - 150 juta tahun yang lalu.[2] Dinosaurus ini pertama kali dijelaskan oleh paleontolog Amerika bernama Elmer S. Riggs pada tahun 1903 dari fosil-fosil yang ditemukan di lembah Sungai Colorado di Colorado barat, Amerika Serikat.",
       secdescription:
@@ -937,7 +949,7 @@ const Data = () => {
       name: "Dreadnoughtus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/dreadnoughtus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Dreadnoughtus adalah genus dinosaurus sauropoda titanosaurian yang mengandung satu spesies, Dreadnoughtus schrani. D. schrani diketahui dari dua kerangka parsial yang ditemukan di batuan Kapur Atas ( Campanian hingga Maastrichtian kira-kira 76-70 Ma) Formasi Cerro Fortaleza di Provinsi Santa Cruz, Argentina.",
       secdescription:
@@ -948,7 +960,7 @@ const Data = () => {
       name: "Mamenchisaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/mamenchisaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Mamenchisaurus adalah genus dinosaurus sauropoda yang dikenal karena lehernya yang sangat panjang [2] yang panjangnya hampir setengah dari total panjang tubuhnya. Banyak spesies telah dimasukkan ke dalam genus; namun, banyak di antaranya yang mungkin dipertanyakan. Fosil telah ditemukan di Cekungan Sichuan dan Provinsi Yunnan di Tiongkok.",
       secdescription:
@@ -959,7 +971,7 @@ const Data = () => {
       name: "Brontosaurus",
       category: "Dinosaurus herbivora",
       image: "/images/brontosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Brontosaurus artinya Kadal Petir, adalah genus dari dinosaurus sauropoda herbivora yang hidup di Amerika Serikat saat iniselama periode Jurassic Akhir . Ia dijelaskan oleh ahli paleontologi Amerika Otniel Charles Marsh pada tahun 1879.",
       secdescription:
@@ -970,7 +982,7 @@ const Data = () => {
       name: "Nigersaurus",  
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/nigersaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Nigersaurus adalah genus dinosaurus sauropoda rebbachisaurid yang hidup pada periode Kapur tengah, sekitar 115 hingga 105 juta tahun yang lalu. Ditemukan di Formasi Elrhaz di daerah yang disebut Gadoufaoua, di Niger. Fosil dinosaurus ini pertama kali dideskripsikan pada tahun 1976, namun baru diberi nama Nigersaurus taqueti pada tahun 1999",
       secdescription:
@@ -981,7 +993,7 @@ const Data = () => {
       name: "Amargasaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/amargasaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Amargasaurus yang berarti La Amarga kadal, adalah genus dinosaurus sauropoda dari zaman Kapur Awal (129,4-122,46 juta tahun yang lalu ) di wilayah yang sekarang disebut Argentina.",
       secdescription:
@@ -992,7 +1004,7 @@ const Data = () => {
       name: "Sinoceratops",
       category: "Dinosaurus herbivora",
       image: "/images/sinoceratops.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Sinoceratops adalah genus dinosaurus ceratopsian yang telah punah dan hidup sekitar 73 juta tahun yang lalu pada bagian akhir Zaman Kapur di tempat yang sekarang menjadi provinsi Shandong di Tiongkok . Ia dinamakan pada tahun 2010 oleh Xu Xing dkk. untuk tiga tengkorak dari Zhucheng , Cina. Nama spesies jenisnya Sinoceratops zhuchengensis berarti wajah bertanduk Cina dari Zhucheng, sesuai dengan lokasi penemuannya.",
       secdescription:
@@ -1003,7 +1015,7 @@ const Data = () => {
       name: "Pentaceratops",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/pentaceratops.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "pentaceratops yang berarti Wajah Bertanduk Lima, adalah genus dinosaurus ceratopsida herbivora dari Zaman Kapur akhirdi wilayah yang sekarang menjadi Amerika Utara. Fosil hewan ini pertama kali ditemukan pada tahun 1921, tetapi genusnya dinamai pada tahun 1923 ketika spesies jenisnya, Pentaceratops sternbergii, dideskripsikan. Pentaceratops hidup sekitar 76-73 juta tahun yang lalu.",
       secdescription:
@@ -1014,7 +1026,7 @@ const Data = () => {
       name: "Torosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/torosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Torosaurus yang berarti Kadal Berlubang, adalah genus dinosaurus ceratopsian chasmosaurine herbivorayang hidup pada zaman Maastricht akhir pada periode Kapur Akhir, antara 68 dan 66 juta tahun yang lalu, meskipun demikian Ada kemungkinan bahwa kisaran spesiesnya bisa meluas hingga 69 juta tahun yang lalu.",
       secdescription:
@@ -1025,7 +1037,7 @@ const Data = () => {
       name: "Triceratops",
       category: "Dinosaurus herbivora",
       image: "/images/triceratops.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Triceratops artinya wajah bertanduk tiga, adalah genus dari dinosaurus ceratopsia chasmosaurinae yang hidup pada sub-kala Maastrichtium akhir pada kala Kapur Akhir, sekitar 68 hingga 66 juta tahun lalu pada wilayah yang sekarang merupakan Amerika Utara. Genus ini merupakan salahsatu yang terakhir diketahui dari dinosaurus non-burung, punah pada Peristiwa kepunahan Kapur Paleogen.",
       secdescription:
@@ -1036,7 +1048,7 @@ const Data = () => {
       name: "Chasmosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/chasmosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Chasmosaurus adalah genus dinosaurus ceratopsid dari Zaman Kapur Akhirdi Amerika Utara. Chasmosaurus berukuran sedikit lebih kecil hingga ukuran 'rata-rata', terutama bila dibandingkan dengan ceratopsia yang lebih besar (seperti Triceratops, yang berukuran sebesar gajah semak Afrika ).",
       secdescription:
@@ -1047,7 +1059,7 @@ const Data = () => {
       name: "Styracosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/styracosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Styracosaurus yang berarti Kadal Berduri, adalah genus dinosaurus ceratopsian herbivora dari Zaman Kapur ( tahap Campanian ), sekitar 75,5 hingga 74,5  juta tahun yang lalu. Ia memiliki empat hingga enam duri parietal panjang yang memanjang dari embel-embel lehernya, sebuah tanduk jugal yang lebih kecil di masing-masing pipinya, dan sebuah tanduk yang menonjol dari hidungnya.",
       secdescription:
@@ -1058,7 +1070,7 @@ const Data = () => {
       name: "Nasutoceratops",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/nasutoceratops.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Nasutoceratops adalah genus dinosaurus ceratopsian yang telah punah. Ia adalah centrosaurine basal yang hidup pada Zaman Kapur Akhir (akhir Campanian, sekitar 76.0-75.5 juta tahun yang lalu ). Fosil telah ditemukan di Utah selatan, Amerika Serikat.",
       secdescription:
@@ -1069,7 +1081,7 @@ const Data = () => {
       name: "Pachyrhinosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/pachyrhinosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Pachyrhinosaurus yang berarti Kadal Berhidung Tebal, merupakan genus dinosaurus ceratopsid centrosaurinae dari Zaman Kapur akhir dari Amerika Utara. Contoh pertama ditemukan oleh Charles M. Sternberg di Alberta, Kanada, pada tahun 1946, dan dinamai pada tahun 1950.",
       secdescription:
@@ -1080,7 +1092,7 @@ const Data = () => {
       name: "Sauropelta",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/sauropelta.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Sauropelta yang berarti Perisai Kadal, adalah genus dinosaurus nodosaurid yang ada pada Periode Kapur Awal di Amerika Utara. Satu spesies ( S.edwardsorum ) telah diberi nama meskipun spesies lain mungkin sudah ada. Secara anatomi, Sauropelta adalah salah satu nodosaurid yang paling banyak dipahami, dengan sisa-sisa fosil yang ditemukan di negara bagian Wyoming, Montana, dan mungkin Utah, AS.",
       secdescription:
@@ -1091,7 +1103,7 @@ const Data = () => {
       name: "Polacanthus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/polacanthus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Polacanthus yang berarti Banyak Duri, adalah dinosaurus ankylosaurian pemakan tumbuhan lapis baja, berduri, dan awal dariperiode Kapur awal Inggris",
       secdescription:
@@ -1102,7 +1114,7 @@ const Data = () => {
       name: "Nodosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/nodosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Nodosaurus (berarti Kadal Bertanduk) adalah genus dinosaurus ankylosaurian nodosaurid herbivora dari Kapur Akhir, yang fosilnya ditemukan secara eksklusif di Formasi Frontier di Wyoming.",
       secdescription:
@@ -1113,7 +1125,7 @@ const Data = () => {
       name: "Euoplocephalus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/euoplocephalus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Euoplocephalus adalah genus dinosaurus ankylosaurid herbivora yang sangat besar, yang hidup pada Zaman Kapur Akhir di Kanada. Ia hanya mempunyai satu spesies bernama, Euoplocephalus tutus.",
       secdescription:
@@ -1124,7 +1136,7 @@ const Data = () => {
       name: "Crichtonsaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/crichtonsaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Crichtonsaurus yang berarti Kadal Crichton,  adalah genus dinosaurus ankylosaurid herbivorayang hidup pada Zaman Kapur Akhir di tempat yang sekarang disebut Tiongkok. Namanya diambil dari nama Michael Crichton, penulis novel dinosaurus Jurassic Park.",
       secdescription:
@@ -1135,7 +1147,7 @@ const Data = () => {
       name: "Ankylosaurus",
       category: "Dinosaurus herbivora",
       image: "/images/ankylosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Ankylosaurus adalah salah satu jenis dinosaurus yang hidup pada periode kapur akhir sekitar 68 juta hingga 65 juta tahun yang lalu di Amerika Utara.",
       secdescription:
@@ -1146,7 +1158,7 @@ const Data = () => {
       name: "Huayangosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/huayangosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Huayangosaurus",
       secdescription:
@@ -1157,7 +1169,7 @@ const Data = () => {
       name: "Kentrosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/kentrosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Huayangosaurus adalah genus dinosaurus stegosaurian dari Jurassic Tengah di wilayah Tiongkok, Ia hidup pada masa Bathonian hingga Callovian, sekitar 165 juta tahun yang lalu, sekitar 20 juta tahun sebelum kerabatnya yang terkenal, Stegosaurus, muncul di Amerika Utara.",
       secdescription:
@@ -1168,7 +1180,7 @@ const Data = () => {
       name: "Gigantspinosaur",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/gigantspinosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Gigantspinosaurus adalah genus dinosaurus stegosaurid dari Jurassic Akhir di Wilayah Lindi Tanzania. Jenis spesiesnya adalah K. aethiopicus, dinamai dan dideskripsikan oleh ahli paleontologi Jerman Edwin Hennig pada tahun 1915.",
       secdescription:
@@ -1179,7 +1191,7 @@ const Data = () => {
       name: "Chungkingosaur",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/chungkingosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Chungkingosaurus yang berarti Kadal Chongqing, adalah genus dinosaurus herbivora dari Formasi Shaximiao Atas Jurassic Akhir di tempat yang sekarang disebut Tiongkok.",
       secdescription:
@@ -1190,7 +1202,7 @@ const Data = () => {
       name: "Wuerhosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/wuerhosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Wuerhosaurus adalah genus dinosaurus stegosaurid dariPeriode Kapur Awal Tiongkok dan Mongolia. Oleh karena itu, ini adalah salah satu genera stegosaurian terakhir yang diketahui keberadaannya, karena sebagian besar lainnya hidup pada akhir Jurassic",
       secdescription:
@@ -1201,7 +1213,7 @@ const Data = () => {
       name: "Stegosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/stegosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Stegosaurus artinya kadal beratap, karena sisik besar di punggungnya (bahasa Yunani stego = piring/atap + sauros = kadal) adalah sebuah genus dinosaurus herbivora besar dari Awal Jurassic di Amerika Utara. Spesies ini adalah salah satu jenis dinosaurus yang paling mudah diidentifikasi, karena kedua baris sisik yang saling silang di punggungnya dan 2 pasang duri panjang di ekornya (disebut thagomizer).",
       secdescription:
@@ -1212,7 +1224,7 @@ const Data = () => {
       name: "Dimetrodon",
       category: "Dinosaurus karnivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/dimetrodon.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Dimetrodon adalah genus sinapsidanon-mamalia yang hidup pada zaman Cisuralian periode Permian Awal, sekitar 295-272 juta tahun yang lalu.",
       secdescription:
@@ -1223,7 +1235,7 @@ const Data = () => {
       name: "Minmi",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/minmi.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "MinmiMinmi adalah genus dinosaurus ankylosaurian herbivora kecil yang hidup pada awal Zaman Kapur Australia, sekitar 120 hingga 112 juta tahun yang lalu. Ini adalah spesimen pertama dari thyreophoran yang ditemukan di Belahan Bumi Selatan",
       secdescription:
@@ -1234,7 +1246,7 @@ const Data = () => {
       name: "Lystrosaurus",
       category: "Dinosaurus herbivora",
       image: "https://cdn.paleo.gg/games/jwe2/images/dino/lystrosaurus.png",
-      button: "baca",
+      button: "Lihat",
       description:
         "Lystrosaurus yang berarti Sekop Kadal, adalah genus terapi dicynodont herbivora yang telah punah dari zaman Permian akhir danTrias Awal (sekitar 250 juta tahun yang lalu). Ia hidup di tempat yang sekarang disebut Antartika, India, Cina, Mongolia, Rusia Eropa, dan Afrika Selatan",
       secdescription:
