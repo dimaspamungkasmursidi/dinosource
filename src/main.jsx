@@ -6,6 +6,7 @@ import ErrorPage from './pages/404.jsx'
 import Home from './pages/Home.jsx'
 import Dinopedia from './pages/Dinopedia.jsx'
 import About from './pages/About.jsx'
+import Shop from './pages/Shop.jsx'
 
 
 const router = createBrowserRouter([
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: '/Dinopedia',
     element: <Dinopedia />,
+  },
+  {
+    path: '/Shop',
+    element: <Shop />,
   },
   {
     path: '/About',

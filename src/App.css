@@ -79,3 +79,17 @@ nav {
   max-height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
   overflow-y: auto;
 }
+
+.categories-filter::-webkit-scrollbar {
+  display: none;
+}
+
+.categories-filter {
+  scrollbar-width: thin; /* Untuk Firefox */
+  -ms-overflow-style: none; /* Untuk IE 10+ */
+}
+
+.categories-filter::-webkit-scrollbar-thumb {
+  background-color: #fff; /* Atur warna thumb scrollbar sesuai keinginan */
+  border-radius: 4px; /* Atur radius sudut thumb scrollbar */
+}

@@ -43,9 +43,9 @@ export const Team = () => {
             <p className="text-sm">Gurunya guru</p>
           </div>
         </div>
-        <p className="text-base md:text-lg mt-10 text-center -mb-20">
+        {/* <p className="text-base md:text-lg mt-10 text-center -mb-20">
           follow ig aing napa cuy, klik aja itu logo ig di bawah..
-        </p>
+        </p> */}
       </div>
     </div>
   );
