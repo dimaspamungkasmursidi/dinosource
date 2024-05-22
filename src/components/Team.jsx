@@ -29,18 +29,16 @@ export const Team = () => {
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Dimas Pamungkas Mursidi</p>
-            <p className="text-sm">Murid Gugel</p>
           </div>
         </div>
         <div className="flex gradient p-4 rounded-lg rounded-tl-[40px]">
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-icon-png-transparent-background-osteopathy-16.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1024px-Google_%22G%22_logo.svg.png"
             alt="Person"
           />
           <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Dr. Gugel S.Kom. Lc. Ma.</p>
-            <p className="text-sm">Gurunya guru</p>
+            <p className="text-lg font-bold">Dr. Google S.Kom. Lc. Ma.</p>
           </div>
         </div>
         {/* <p className="text-base md:text-lg mt-10 text-center -mb-20">

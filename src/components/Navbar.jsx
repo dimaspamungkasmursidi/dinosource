@@ -19,7 +19,7 @@ const Navbar = () => {
       path: "/Dinopedia",
     },
     {
-      link: "Shop",
+      link: "Dino Shop",
       path: "/Shop",
     },
     {
