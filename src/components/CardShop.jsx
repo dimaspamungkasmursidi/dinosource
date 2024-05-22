@@ -85,7 +85,7 @@ const CardShop = () => {
 
   const generateWhatsAppLink = (shopName) => {
     const phoneNumber = "6288297894942"; // Ganti dengan nomor WhatsApp Anda
-    const message = `Halo, saya tertarik untuk membeli produk ${shopName}`;
+    const message = `Halo min, saya ingin membeli produk *${shopName}*. Pembayaran melalui *isi*.`;
     return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   };
 
